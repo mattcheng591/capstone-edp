@@ -1,0 +1,1001 @@
+timestamp,shoe_id,shoe_type,shoe_size,shoe_color,shoe_brand,price,popularity,durability
+2025-03-18 10:04:33,1,sneakers,7,red,reebok,70,3,2
+2025-03-18 10:04:32,2,sneakers,9,blue,adidas,100,3,5
+2025-03-18 10:04:31,3,boots,8,brown,dr martens,100,2,1
+2025-03-18 10:04:30,4,boots,8,brown,dr martens,180,3,5
+2025-03-18 10:04:29,5,sneakers,11,red,new balance,60,2,1
+2025-03-18 10:04:28,6,sneakers,10,red,adidas,90,4,2
+2025-03-18 10:04:27,7,boots,11,tan,timberland,200,3,5
+2025-03-18 10:04:26,8,sneakers,7,black,new balance,60,4,3
+2025-03-18 10:04:25,9,boots,11,brown,caterpillar,140,3,5
+2025-03-18 10:04:24,10,sneakers,8,green,nike,50,4,5
+2025-03-18 10:04:23,11,boots,9,black,timberland,100,3,5
+2025-03-18 10:04:22,12,sneakers,6,white,new balance,70,1,2
+2025-03-18 10:04:21,13,boots,12,tan,dr martens,140,1,1
+2025-03-18 10:04:20,14,boots,11,brown,caterpillar,120,4,1
+2025-03-18 10:04:19,15,boots,11,black,timberland,140,1,5
+2025-03-18 10:04:18,16,sneakers,10,red,nike,80,3,3
+2025-03-18 10:04:17,17,sneakers,11,red,reebok,50,1,1
+2025-03-18 10:04:16,18,sneakers,12,blue,nike,60,1,1
+2025-03-18 10:04:15,19,sneakers,6,white,new balance,70,4,5
+2025-03-18 10:04:14,20,sneakers,8,black,nike,70,4,2
+2025-03-18 10:04:13,21,boots,7,brown,dr martens,100,5,3
+2025-03-18 10:04:12,22,sneakers,6,green,new balance,100,3,2
+2025-03-18 10:04:11,23,boots,9,brown,timberland,160,1,5
+2025-03-18 10:04:10,24,boots,8,black,timberland,100,5,5
+2025-03-18 10:04:09,25,boots,14,tan,caterpillar,200,4,4
+2025-03-18 10:04:08,26,boots,11,brown,caterpillar,140,2,2
+2025-03-18 10:04:07,27,boots,12,tan,timberland,200,5,3
+2025-03-18 10:04:06,28,boots,13,tan,dr martens,120,3,4
+2025-03-18 10:04:05,29,sneakers,9,green,adidas,60,3,4
+2025-03-18 10:04:04,30,sneakers,6,white,new balance,100,3,1
+2025-03-18 10:04:03,31,boots,7,black,caterpillar,160,2,4
+2025-03-18 10:04:02,32,boots,12,black,timberland,160,3,2
+2025-03-18 10:04:01,33,boots,12,tan,caterpillar,160,2,3
+2025-03-18 10:04:00,34,boots,12,brown,dr martens,160,1,4
+2025-03-18 10:03:59,35,boots,13,tan,dr martens,100,2,3
+2025-03-18 10:03:58,36,sneakers,11,blue,reebok,50,2,2
+2025-03-18 10:03:57,37,sneakers,6,red,adidas,60,5,1
+2025-03-18 10:03:56,38,boots,6,tan,timberland,200,2,5
+2025-03-18 10:03:55,39,boots,13,black,caterpillar,120,4,4
+2025-03-18 10:03:54,40,sneakers,10,black,new balance,60,3,1
+2025-03-18 10:03:53,41,boots,12,brown,caterpillar,120,2,4
+2025-03-18 10:03:52,42,boots,6,brown,timberland,140,2,2
+2025-03-18 10:03:51,43,sneakers,8,white,nike,90,5,3
+2025-03-18 10:03:50,44,boots,12,brown,dr martens,200,4,5
+2025-03-18 10:03:49,45,sneakers,6,blue,adidas,70,3,5
+2025-03-18 10:03:48,46,sneakers,7,red,nike,90,1,2
+2025-03-18 10:03:47,47,boots,8,black,timberland,120,1,3
+2025-03-18 10:03:46,48,sneakers,9,white,new balance,50,1,1
+2025-03-18 10:03:45,49,sneakers,6,red,new balance,80,2,2
+2025-03-18 10:03:44,50,sneakers,7,green,nike,80,2,5
+2025-03-18 10:03:43,51,sneakers,9,blue,adidas,60,1,1
+2025-03-18 10:03:42,52,sneakers,10,white,nike,100,5,2
+2025-03-18 10:03:41,53,sneakers,11,white,adidas,80,1,4
+2025-03-18 10:03:40,54,sneakers,7,blue,new balance,50,3,3
+2025-03-18 10:03:39,55,boots,10,tan,dr martens,100,1,1
+2025-03-18 10:03:38,56,sneakers,8,blue,nike,80,3,5
+2025-03-18 10:03:37,57,boots,14,brown,dr martens,140,4,4
+2025-03-18 10:03:36,58,sneakers,8,green,new balance,60,2,5
+2025-03-18 10:03:35,59,boots,7,tan,caterpillar,180,3,3
+2025-03-18 10:03:34,60,sneakers,6,red,adidas,100,3,2
+2025-03-18 10:03:33,61,sneakers,12,green,new balance,80,1,2
+2025-03-18 10:03:32,62,boots,7,tan,dr martens,160,5,5
+2025-03-18 10:03:31,63,boots,8,brown,timberland,120,4,5
+2025-03-18 10:03:30,64,sneakers,11,green,new balance,70,1,1
+2025-03-18 10:03:29,65,boots,12,brown,timberland,160,4,5
+2025-03-18 10:03:28,66,boots,6,black,dr martens,200,4,2
+2025-03-18 10:03:27,67,sneakers,10,red,new balance,100,1,2
+2025-03-18 10:03:26,68,sneakers,7,black,adidas,60,5,1
+2025-03-18 10:03:25,69,sneakers,8,red,nike,80,1,1
+2025-03-18 10:03:24,70,boots,12,black,caterpillar,100,2,2
+2025-03-18 10:03:23,71,boots,8,black,dr martens,140,4,4
+2025-03-18 10:03:22,72,sneakers,12,blue,adidas,100,5,1
+2025-03-18 10:03:21,73,boots,13,black,caterpillar,200,4,4
+2025-03-18 10:03:20,74,sneakers,6,white,nike,60,2,2
+2025-03-18 10:03:19,75,sneakers,8,black,reebok,50,3,2
+2025-03-18 10:03:18,76,boots,7,brown,timberland,160,3,2
+2025-03-18 10:03:17,77,boots,13,black,dr martens,160,5,2
+2025-03-18 10:03:16,78,boots,11,brown,caterpillar,140,2,1
+2025-03-18 10:03:15,79,sneakers,6,green,new balance,80,4,4
+2025-03-18 10:03:14,80,sneakers,6,green,reebok,100,5,5
+2025-03-18 10:03:13,81,sneakers,8,white,adidas,80,3,4
+2025-03-18 10:03:12,82,boots,7,black,caterpillar,100,4,1
+2025-03-18 10:03:11,83,sneakers,10,green,adidas,50,4,4
+2025-03-18 10:03:10,84,boots,11,tan,caterpillar,200,4,2
+2025-03-18 10:03:09,85,sneakers,9,white,reebok,100,2,3
+2025-03-18 10:03:08,86,boots,6,black,dr martens,140,1,5
+2025-03-18 10:03:07,87,sneakers,8,red,new balance,60,5,5
+2025-03-18 10:03:06,88,sneakers,6,black,nike,50,1,2
+2025-03-18 10:03:05,89,sneakers,11,red,nike,60,5,3
+2025-03-18 10:03:04,90,boots,10,tan,timberland,140,4,2
+2025-03-18 10:03:03,91,boots,12,black,dr martens,120,1,1
+2025-03-18 10:03:02,92,boots,10,black,dr martens,100,3,4
+2025-03-18 10:03:01,93,boots,11,black,caterpillar,140,4,5
+2025-03-18 10:03:00,94,boots,9,brown,caterpillar,200,1,1
+2025-03-18 10:02:59,95,sneakers,7,blue,reebok,70,4,4
+2025-03-18 10:02:58,96,boots,10,black,caterpillar,100,4,4
+2025-03-18 10:02:57,97,sneakers,8,blue,nike,70,3,1
+2025-03-18 10:02:56,98,boots,14,black,caterpillar,200,2,2
+2025-03-18 10:02:55,99,sneakers,7,blue,adidas,60,2,1
+2025-03-18 10:02:54,100,boots,12,tan,dr martens,140,1,3
+2025-03-18 10:02:53,101,sneakers,10,red,new balance,90,1,1
+2025-03-18 10:02:52,102,boots,6,tan,dr martens,140,2,4
+2025-03-18 10:02:51,103,boots,10,tan,dr martens,200,2,5
+2025-03-18 10:02:50,104,sneakers,8,black,nike,100,3,4
+2025-03-18 10:02:49,105,boots,10,brown,dr martens,140,5,1
+2025-03-18 10:02:48,106,sneakers,12,green,adidas,100,5,1
+2025-03-18 10:02:47,107,boots,11,tan,timberland,180,4,4
+2025-03-18 10:02:46,108,boots,6,brown,caterpillar,140,4,3
+2025-03-18 10:02:45,109,boots,7,brown,timberland,200,2,5
+2025-03-18 10:02:44,110,boots,9,tan,timberland,160,1,5
+2025-03-18 10:02:43,111,sneakers,6,red,reebok,70,3,1
+2025-03-18 10:02:42,112,sneakers,8,green,reebok,90,1,5
+2025-03-18 10:02:41,113,boots,12,black,timberland,100,1,2
+2025-03-18 10:02:40,114,boots,14,tan,caterpillar,200,4,2
+2025-03-18 10:02:39,115,sneakers,6,white,reebok,100,3,4
+2025-03-18 10:02:38,116,boots,6,tan,timberland,200,2,1
+2025-03-18 10:02:37,117,boots,12,black,dr martens,180,4,5
+2025-03-18 10:02:36,118,boots,9,tan,caterpillar,120,3,2
+2025-03-18 10:02:35,119,boots,9,tan,dr martens,180,2,3
+2025-03-18 10:02:34,120,sneakers,7,white,reebok,100,5,3
+2025-03-18 10:02:33,121,sneakers,9,blue,nike,60,4,1
+2025-03-18 10:02:32,122,sneakers,10,white,reebok,70,5,1
+2025-03-18 10:02:31,123,sneakers,8,green,nike,80,1,3
+2025-03-18 10:02:30,124,sneakers,7,black,reebok,100,1,4
+2025-03-18 10:02:29,125,sneakers,9,red,new balance,90,5,3
+2025-03-18 10:02:28,126,sneakers,6,blue,nike,60,2,5
+2025-03-18 10:02:27,127,boots,7,brown,dr martens,140,3,1
+2025-03-18 10:02:26,128,sneakers,11,blue,nike,60,2,3
+2025-03-18 10:02:25,129,sneakers,7,black,nike,70,5,5
+2025-03-18 10:02:24,130,sneakers,8,green,nike,100,5,2
+2025-03-18 10:02:23,131,sneakers,7,white,new balance,70,1,5
+2025-03-18 10:02:22,132,boots,13,tan,timberland,160,1,2
+2025-03-18 10:02:21,133,sneakers,9,green,nike,80,1,1
+2025-03-18 10:02:20,134,boots,14,tan,timberland,120,4,5
+2025-03-18 10:02:19,135,sneakers,6,blue,new balance,90,2,5
+2025-03-18 10:02:18,136,sneakers,6,white,reebok,90,5,1
+2025-03-18 10:02:17,137,boots,6,black,caterpillar,180,4,2
+2025-03-18 10:02:16,138,sneakers,9,red,adidas,80,2,2
+2025-03-18 10:02:15,139,sneakers,8,green,reebok,60,4,1
+2025-03-18 10:02:14,140,sneakers,9,red,adidas,90,5,2
+2025-03-18 10:02:13,141,sneakers,11,red,adidas,70,4,5
+2025-03-18 10:02:12,142,sneakers,8,blue,adidas,100,1,5
+2025-03-18 10:02:11,143,boots,10,black,caterpillar,140,2,2
+2025-03-18 10:02:10,144,sneakers,12,black,nike,50,2,1
+2025-03-18 10:02:09,145,boots,11,black,timberland,100,5,1
+2025-03-18 10:02:08,146,boots,11,black,timberland,140,3,5
+2025-03-18 10:02:07,147,sneakers,6,red,adidas,50,1,2
+2025-03-18 10:02:06,148,sneakers,11,black,new balance,90,5,1
+2025-03-18 10:02:05,149,sneakers,8,red,reebok,90,5,5
+2025-03-18 10:02:04,150,boots,6,tan,timberland,120,3,3
+2025-03-18 10:02:03,151,sneakers,9,black,nike,90,5,4
+2025-03-18 10:02:02,152,sneakers,6,blue,nike,60,2,5
+2025-03-18 10:02:01,153,boots,13,tan,timberland,180,5,4
+2025-03-18 10:02:00,154,sneakers,9,black,reebok,50,2,1
+2025-03-18 10:01:59,155,boots,10,tan,dr martens,100,2,3
+2025-03-18 10:01:58,156,sneakers,10,black,nike,70,5,5
+2025-03-18 10:01:57,157,sneakers,7,white,nike,60,4,2
+2025-03-18 10:01:56,158,boots,12,tan,dr martens,140,4,2
+2025-03-18 10:01:55,159,boots,12,tan,dr martens,200,1,3
+2025-03-18 10:01:54,160,sneakers,9,red,new balance,50,5,5
+2025-03-18 10:01:53,161,sneakers,9,blue,reebok,100,2,1
+2025-03-18 10:01:52,162,sneakers,11,green,new balance,90,1,5
+2025-03-18 10:01:51,163,boots,11,black,caterpillar,200,5,1
+2025-03-18 10:01:50,164,sneakers,9,blue,new balance,90,1,2
+2025-03-18 10:01:49,165,boots,9,black,dr martens,120,5,4
+2025-03-18 10:01:48,166,boots,7,brown,timberland,140,5,1
+2025-03-18 10:01:47,167,boots,10,tan,timberland,140,4,1
+2025-03-18 10:01:46,168,boots,12,brown,caterpillar,200,3,5
+2025-03-18 10:01:45,169,boots,10,black,timberland,200,3,2
+2025-03-18 10:01:44,170,sneakers,8,blue,nike,60,2,5
+2025-03-18 10:01:43,171,boots,9,brown,timberland,100,2,4
+2025-03-18 10:01:42,172,boots,6,tan,caterpillar,160,3,2
+2025-03-18 10:01:41,173,boots,6,tan,dr martens,100,3,4
+2025-03-18 10:01:40,174,boots,6,brown,dr martens,120,2,2
+2025-03-18 10:01:39,175,boots,10,tan,caterpillar,160,1,5
+2025-03-18 10:01:38,176,boots,9,tan,caterpillar,180,3,3
+2025-03-18 10:01:37,177,boots,14,brown,caterpillar,180,4,4
+2025-03-18 10:01:36,178,boots,13,tan,timberland,140,2,1
+2025-03-18 10:01:35,179,sneakers,8,red,nike,50,3,1
+2025-03-18 10:01:34,180,boots,10,tan,caterpillar,180,4,4
+2025-03-18 10:01:33,181,boots,12,black,timberland,180,3,2
+2025-03-18 10:01:32,182,boots,6,black,timberland,180,5,1
+2025-03-18 10:01:31,183,boots,6,tan,caterpillar,140,3,1
+2025-03-18 10:01:30,184,boots,11,brown,dr martens,180,2,5
+2025-03-18 10:01:29,185,sneakers,12,blue,adidas,80,3,1
+2025-03-18 10:01:28,186,boots,7,black,dr martens,160,4,4
+2025-03-18 10:01:27,187,sneakers,11,green,new balance,90,2,1
+2025-03-18 10:01:26,188,boots,14,brown,caterpillar,100,5,5
+2025-03-18 10:01:25,189,sneakers,12,blue,new balance,90,3,5
+2025-03-18 10:01:24,190,boots,13,black,timberland,200,5,4
+2025-03-18 10:01:23,191,boots,14,brown,timberland,200,5,1
+2025-03-18 10:01:22,192,boots,14,black,dr martens,180,1,3
+2025-03-18 10:01:21,193,boots,10,black,dr martens,160,1,4
+2025-03-18 10:01:20,194,boots,6,black,caterpillar,100,2,2
+2025-03-18 10:01:19,195,boots,14,brown,dr martens,200,4,2
+2025-03-18 10:01:18,196,sneakers,7,white,new balance,100,5,2
+2025-03-18 10:01:17,197,sneakers,9,blue,reebok,50,2,4
+2025-03-18 10:01:16,198,sneakers,6,green,nike,90,2,1
+2025-03-18 10:01:15,199,boots,12,black,dr martens,100,5,5
+2025-03-18 10:01:14,200,sneakers,11,green,nike,90,3,5
+2025-03-18 10:01:13,201,boots,14,tan,caterpillar,140,5,5
+2025-03-18 10:01:12,202,boots,8,brown,dr martens,160,1,2
+2025-03-18 10:01:11,203,sneakers,6,red,new balance,60,5,1
+2025-03-18 10:01:10,204,boots,10,tan,dr martens,160,3,4
+2025-03-18 10:01:09,205,sneakers,8,black,new balance,80,1,3
+2025-03-18 10:01:08,206,boots,11,black,caterpillar,180,1,1
+2025-03-18 10:01:07,207,sneakers,10,black,adidas,80,5,5
+2025-03-18 10:01:06,208,sneakers,11,red,nike,90,3,1
+2025-03-18 10:01:05,209,sneakers,7,blue,adidas,80,3,5
+2025-03-18 10:01:04,210,sneakers,8,white,new balance,80,1,4
+2025-03-18 10:01:03,211,boots,10,black,dr martens,200,3,2
+2025-03-18 10:01:02,212,sneakers,8,white,reebok,90,1,4
+2025-03-18 10:01:01,213,boots,10,black,timberland,200,3,2
+2025-03-18 10:01:00,214,sneakers,10,blue,adidas,100,5,1
+2025-03-18 10:00:59,215,boots,9,tan,caterpillar,140,4,5
+2025-03-18 10:00:58,216,boots,9,brown,dr martens,200,1,5
+2025-03-18 10:00:57,217,boots,10,tan,timberland,200,4,4
+2025-03-18 10:00:56,218,sneakers,10,black,reebok,60,1,3
+2025-03-18 10:00:55,219,sneakers,7,red,adidas,60,1,3
+2025-03-18 10:00:54,220,sneakers,10,green,reebok,60,4,5
+2025-03-18 10:00:53,221,sneakers,11,black,adidas,60,3,1
+2025-03-18 10:00:52,222,boots,14,black,timberland,100,2,5
+2025-03-18 10:00:51,223,sneakers,7,green,reebok,90,2,3
+2025-03-18 10:00:50,224,sneakers,11,red,new balance,80,3,5
+2025-03-18 10:00:49,225,boots,11,brown,timberland,120,4,3
+2025-03-18 10:00:48,226,sneakers,10,red,reebok,60,5,4
+2025-03-18 10:00:47,227,boots,11,black,dr martens,200,5,1
+2025-03-18 10:00:46,228,sneakers,8,blue,nike,50,5,4
+2025-03-18 10:00:45,229,boots,14,tan,dr martens,200,5,4
+2025-03-18 10:00:44,230,boots,10,brown,timberland,160,1,5
+2025-03-18 10:00:43,231,sneakers,6,red,nike,60,4,4
+2025-03-18 10:00:42,232,boots,14,tan,caterpillar,120,1,2
+2025-03-18 10:00:41,233,sneakers,10,blue,new balance,60,5,2
+2025-03-18 10:00:40,234,boots,10,brown,dr martens,160,3,5
+2025-03-18 10:00:39,235,sneakers,9,white,new balance,50,3,3
+2025-03-18 10:00:38,236,boots,9,brown,timberland,200,1,4
+2025-03-18 10:00:37,237,boots,11,tan,dr martens,180,4,3
+2025-03-18 10:00:36,238,sneakers,8,red,nike,100,5,5
+2025-03-18 10:00:35,239,boots,11,tan,timberland,200,2,1
+2025-03-18 10:00:34,240,boots,6,tan,caterpillar,200,1,1
+2025-03-18 10:00:33,241,sneakers,10,blue,new balance,80,2,4
+2025-03-18 10:00:32,242,sneakers,12,black,new balance,50,5,1
+2025-03-18 10:00:31,243,sneakers,11,white,reebok,60,4,4
+2025-03-18 10:00:30,244,sneakers,11,white,new balance,100,4,5
+2025-03-18 10:00:29,245,boots,13,black,dr martens,200,4,4
+2025-03-18 10:00:28,246,boots,8,tan,caterpillar,140,5,4
+2025-03-18 10:00:27,247,boots,8,black,dr martens,180,3,5
+2025-03-18 10:00:26,248,sneakers,10,black,reebok,90,2,3
+2025-03-18 10:00:25,249,sneakers,9,black,adidas,80,2,2
+2025-03-18 10:00:24,250,boots,12,tan,caterpillar,180,4,2
+2025-03-18 10:00:23,251,sneakers,8,black,nike,60,5,3
+2025-03-18 10:00:22,252,boots,11,tan,timberland,200,2,4
+2025-03-18 10:00:21,253,sneakers,7,red,reebok,80,1,5
+2025-03-18 10:00:20,254,sneakers,10,blue,reebok,70,2,3
+2025-03-18 10:00:19,255,boots,12,brown,caterpillar,120,4,5
+2025-03-18 10:00:18,256,sneakers,8,green,new balance,70,1,4
+2025-03-18 10:00:17,257,boots,8,black,timberland,200,5,1
+2025-03-18 10:00:16,258,sneakers,7,blue,adidas,100,3,5
+2025-03-18 10:00:15,259,boots,11,tan,caterpillar,140,5,1
+2025-03-18 10:00:14,260,boots,9,tan,dr martens,100,3,1
+2025-03-18 10:00:13,261,sneakers,10,white,adidas,80,2,4
+2025-03-18 10:00:12,262,boots,9,brown,dr martens,180,2,5
+2025-03-18 10:00:11,263,sneakers,7,white,new balance,100,4,4
+2025-03-18 10:00:10,264,sneakers,6,black,new balance,50,2,1
+2025-03-18 10:00:09,265,boots,11,tan,dr martens,160,1,4
+2025-03-18 10:00:08,266,sneakers,6,red,adidas,70,5,3
+2025-03-18 10:00:07,267,boots,14,tan,caterpillar,200,4,4
+2025-03-18 10:00:06,268,sneakers,6,green,nike,70,2,4
+2025-03-18 10:00:05,269,boots,9,black,timberland,180,4,2
+2025-03-18 10:00:04,270,sneakers,12,red,new balance,60,3,1
+2025-03-18 10:00:03,271,boots,6,tan,caterpillar,100,3,5
+2025-03-18 10:00:02,272,boots,12,tan,timberland,100,2,1
+2025-03-18 10:00:01,273,boots,14,tan,dr martens,180,4,4
+2025-03-18 10:00:00,274,boots,8,black,timberland,200,3,3
+2025-03-18 09:59:59,275,sneakers,6,white,adidas,100,1,2
+2025-03-18 09:59:58,276,sneakers,9,green,nike,50,2,4
+2025-03-18 09:59:57,277,sneakers,11,white,reebok,50,1,1
+2025-03-18 09:59:56,278,boots,6,black,caterpillar,200,4,4
+2025-03-18 09:59:55,279,boots,11,black,dr martens,120,2,4
+2025-03-18 09:59:54,280,sneakers,9,white,adidas,60,1,2
+2025-03-18 09:59:53,281,sneakers,6,blue,adidas,50,3,1
+2025-03-18 09:59:52,282,sneakers,10,green,reebok,50,1,2
+2025-03-18 09:59:51,283,boots,10,tan,dr martens,100,4,4
+2025-03-18 09:59:50,284,boots,9,brown,dr martens,100,1,1
+2025-03-18 09:59:49,285,boots,13,brown,caterpillar,120,5,5
+2025-03-18 09:59:48,286,sneakers,8,black,adidas,90,3,2
+2025-03-18 09:59:47,287,boots,6,black,dr martens,200,4,4
+2025-03-18 09:59:46,288,sneakers,8,blue,adidas,50,2,5
+2025-03-18 09:59:45,289,sneakers,7,white,reebok,80,3,1
+2025-03-18 09:59:44,290,sneakers,10,red,reebok,70,2,4
+2025-03-18 09:59:43,291,boots,13,tan,caterpillar,120,1,4
+2025-03-18 09:59:42,292,boots,11,tan,timberland,200,1,4
+2025-03-18 09:59:41,293,boots,14,black,dr martens,120,5,2
+2025-03-18 09:59:40,294,sneakers,6,green,adidas,100,1,3
+2025-03-18 09:59:39,295,boots,8,brown,timberland,100,3,2
+2025-03-18 09:59:38,296,sneakers,8,red,adidas,70,1,4
+2025-03-18 09:59:37,297,sneakers,6,black,new balance,100,3,5
+2025-03-18 09:59:36,298,sneakers,11,white,adidas,50,2,2
+2025-03-18 09:59:35,299,sneakers,9,white,new balance,70,4,5
+2025-03-18 09:59:34,300,boots,10,brown,dr martens,200,5,4
+2025-03-18 09:59:33,301,sneakers,11,white,new balance,70,3,3
+2025-03-18 09:59:32,302,boots,8,tan,caterpillar,160,4,5
+2025-03-18 09:59:31,303,boots,11,black,timberland,140,3,5
+2025-03-18 09:59:30,304,boots,10,black,timberland,180,1,3
+2025-03-18 09:59:29,305,sneakers,10,black,new balance,90,5,3
+2025-03-18 09:59:28,306,boots,12,brown,dr martens,140,2,3
+2025-03-18 09:59:27,307,boots,14,tan,dr martens,160,4,4
+2025-03-18 09:59:26,308,sneakers,10,green,nike,70,5,3
+2025-03-18 09:59:25,309,sneakers,11,red,reebok,80,4,3
+2025-03-18 09:59:24,310,sneakers,8,black,nike,90,4,3
+2025-03-18 09:59:23,311,sneakers,10,blue,new balance,50,1,1
+2025-03-18 09:59:22,312,boots,6,tan,dr martens,160,2,5
+2025-03-18 09:59:21,313,sneakers,10,black,adidas,70,2,1
+2025-03-18 09:59:20,314,sneakers,10,white,nike,80,5,3
+2025-03-18 09:59:19,315,sneakers,6,red,new balance,50,5,3
+2025-03-18 09:59:18,316,sneakers,6,green,adidas,50,5,1
+2025-03-18 09:59:17,317,boots,8,black,timberland,140,3,1
+2025-03-18 09:59:16,318,sneakers,8,red,adidas,60,3,1
+2025-03-18 09:59:15,319,boots,13,brown,timberland,200,2,3
+2025-03-18 09:59:14,320,sneakers,12,black,reebok,50,4,5
+2025-03-18 09:59:13,321,sneakers,11,white,new balance,90,4,3
+2025-03-18 09:59:12,322,sneakers,7,red,nike,80,5,4
+2025-03-18 09:59:11,323,sneakers,6,green,nike,50,4,5
+2025-03-18 09:59:10,324,boots,8,tan,dr martens,160,4,2
+2025-03-18 09:59:09,325,boots,8,tan,timberland,120,1,1
+2025-03-18 09:59:08,326,sneakers,9,green,reebok,50,5,5
+2025-03-18 09:59:07,327,boots,8,tan,timberland,100,5,5
+2025-03-18 09:59:06,328,sneakers,9,green,reebok,80,5,4
+2025-03-18 09:59:05,329,sneakers,12,black,new balance,70,2,4
+2025-03-18 09:59:04,330,boots,8,black,timberland,200,1,1
+2025-03-18 09:59:03,331,boots,10,tan,dr martens,160,2,2
+2025-03-18 09:59:02,332,sneakers,6,black,new balance,50,4,3
+2025-03-18 09:59:01,333,sneakers,12,black,adidas,80,3,5
+2025-03-18 09:59:00,334,boots,13,black,timberland,180,5,1
+2025-03-18 09:58:59,335,sneakers,9,blue,reebok,70,4,4
+2025-03-18 09:58:58,336,sneakers,8,white,nike,70,1,5
+2025-03-18 09:58:57,337,sneakers,9,black,new balance,70,3,5
+2025-03-18 09:58:56,338,sneakers,12,black,new balance,60,5,3
+2025-03-18 09:58:55,339,boots,13,brown,caterpillar,120,5,2
+2025-03-18 09:58:54,340,sneakers,12,red,new balance,50,1,5
+2025-03-18 09:58:53,341,boots,9,tan,dr martens,160,5,1
+2025-03-18 09:58:52,342,boots,9,brown,caterpillar,200,2,4
+2025-03-18 09:58:51,343,sneakers,7,blue,new balance,90,5,1
+2025-03-18 09:58:50,344,sneakers,7,black,nike,90,1,5
+2025-03-18 09:58:49,345,sneakers,10,white,new balance,90,5,3
+2025-03-18 09:58:48,346,sneakers,7,black,reebok,70,4,4
+2025-03-18 09:58:47,347,boots,12,tan,caterpillar,140,3,4
+2025-03-18 09:58:46,348,sneakers,10,blue,new balance,70,4,3
+2025-03-18 09:58:45,349,sneakers,8,blue,reebok,100,5,5
+2025-03-18 09:58:44,350,boots,12,brown,dr martens,140,1,5
+2025-03-18 09:58:43,351,boots,12,tan,timberland,120,4,4
+2025-03-18 09:58:42,352,sneakers,6,black,new balance,80,4,5
+2025-03-18 09:58:41,353,sneakers,8,black,adidas,70,4,1
+2025-03-18 09:58:40,354,sneakers,12,blue,new balance,100,1,3
+2025-03-18 09:58:39,355,boots,14,black,dr martens,140,5,4
+2025-03-18 09:58:38,356,sneakers,8,black,nike,100,2,4
+2025-03-18 09:58:37,357,boots,10,tan,timberland,180,4,5
+2025-03-18 09:58:36,358,boots,10,brown,caterpillar,140,2,2
+2025-03-18 09:58:35,359,sneakers,8,green,nike,100,2,1
+2025-03-18 09:58:34,360,sneakers,9,white,nike,70,1,4
+2025-03-18 09:58:33,361,sneakers,8,blue,new balance,70,3,3
+2025-03-18 09:58:32,362,boots,7,tan,dr martens,200,5,5
+2025-03-18 09:58:31,363,boots,6,brown,timberland,120,4,2
+2025-03-18 09:58:30,364,sneakers,8,black,new balance,60,4,1
+2025-03-18 09:58:29,365,boots,10,tan,dr martens,100,2,1
+2025-03-18 09:58:28,366,boots,13,black,caterpillar,160,3,1
+2025-03-18 09:58:27,367,sneakers,9,red,adidas,70,1,3
+2025-03-18 09:58:26,368,boots,11,brown,caterpillar,200,1,4
+2025-03-18 09:58:25,369,sneakers,7,red,new balance,100,5,4
+2025-03-18 09:58:24,370,sneakers,10,blue,adidas,50,4,1
+2025-03-18 09:58:23,371,sneakers,11,green,reebok,80,3,1
+2025-03-18 09:58:22,372,boots,6,brown,timberland,140,5,4
+2025-03-18 09:58:21,373,boots,12,tan,dr martens,120,3,5
+2025-03-18 09:58:20,374,boots,11,brown,caterpillar,140,1,4
+2025-03-18 09:58:19,375,sneakers,9,blue,nike,70,3,5
+2025-03-18 09:58:18,376,boots,10,black,caterpillar,200,4,5
+2025-03-18 09:58:17,377,sneakers,7,red,nike,80,5,4
+2025-03-18 09:58:16,378,boots,11,tan,timberland,160,2,2
+2025-03-18 09:58:15,379,sneakers,10,white,nike,50,4,3
+2025-03-18 09:58:14,380,boots,7,brown,dr martens,200,3,3
+2025-03-18 09:58:13,381,boots,11,black,timberland,100,4,2
+2025-03-18 09:58:12,382,sneakers,9,red,new balance,90,4,2
+2025-03-18 09:58:11,383,boots,6,black,caterpillar,100,1,4
+2025-03-18 09:58:10,384,boots,12,tan,caterpillar,120,3,3
+2025-03-18 09:58:09,385,boots,8,tan,caterpillar,120,4,2
+2025-03-18 09:58:08,386,sneakers,8,red,nike,50,1,4
+2025-03-18 09:58:07,387,sneakers,12,blue,new balance,70,4,5
+2025-03-18 09:58:06,388,sneakers,8,green,nike,60,1,1
+2025-03-18 09:58:05,389,boots,8,black,dr martens,120,5,5
+2025-03-18 09:58:04,390,boots,14,black,caterpillar,120,1,4
+2025-03-18 09:58:03,391,boots,7,black,timberland,200,2,1
+2025-03-18 09:58:02,392,sneakers,6,blue,adidas,60,3,4
+2025-03-18 09:58:01,393,boots,14,brown,caterpillar,140,3,2
+2025-03-18 09:58:00,394,boots,12,black,caterpillar,160,4,4
+2025-03-18 09:57:59,395,boots,12,tan,timberland,120,3,3
+2025-03-18 09:57:58,396,boots,10,black,caterpillar,100,2,3
+2025-03-18 09:57:57,397,sneakers,12,black,adidas,50,5,4
+2025-03-18 09:57:56,398,sneakers,11,black,nike,80,2,1
+2025-03-18 09:57:55,399,sneakers,12,green,adidas,50,1,5
+2025-03-18 09:57:54,400,boots,14,brown,timberland,120,4,1
+2025-03-18 09:57:53,401,boots,7,tan,dr martens,180,3,5
+2025-03-18 09:57:52,402,sneakers,7,green,nike,70,4,3
+2025-03-18 09:57:51,403,sneakers,6,red,new balance,80,4,4
+2025-03-18 09:57:50,404,sneakers,8,green,new balance,50,2,1
+2025-03-18 09:57:49,405,boots,14,black,dr martens,180,2,3
+2025-03-18 09:57:48,406,boots,11,brown,timberland,140,5,1
+2025-03-18 09:57:47,407,boots,6,black,caterpillar,120,2,4
+2025-03-18 09:57:46,408,sneakers,8,green,adidas,50,1,4
+2025-03-18 09:57:45,409,sneakers,7,red,new balance,50,3,5
+2025-03-18 09:57:44,410,boots,12,tan,caterpillar,140,5,2
+2025-03-18 09:57:43,411,sneakers,7,white,reebok,60,4,1
+2025-03-18 09:57:42,412,boots,12,tan,caterpillar,120,2,1
+2025-03-18 09:57:41,413,boots,13,brown,caterpillar,120,5,5
+2025-03-18 09:57:40,414,sneakers,10,green,reebok,50,3,5
+2025-03-18 09:57:39,415,boots,11,brown,caterpillar,180,4,2
+2025-03-18 09:57:38,416,sneakers,7,blue,nike,50,3,3
+2025-03-18 09:57:37,417,boots,7,black,timberland,180,1,3
+2025-03-18 09:57:36,418,sneakers,7,green,adidas,60,2,4
+2025-03-18 09:57:35,419,boots,11,black,caterpillar,160,2,3
+2025-03-18 09:57:34,420,boots,7,black,dr martens,100,3,4
+2025-03-18 09:57:33,421,sneakers,7,black,reebok,90,1,5
+2025-03-18 09:57:32,422,sneakers,11,blue,new balance,90,4,1
+2025-03-18 09:57:31,423,boots,9,black,caterpillar,100,3,4
+2025-03-18 09:57:30,424,sneakers,7,red,adidas,60,2,2
+2025-03-18 09:57:29,425,sneakers,11,green,new balance,80,1,1
+2025-03-18 09:57:28,426,boots,6,black,caterpillar,200,2,5
+2025-03-18 09:57:27,427,sneakers,11,white,nike,80,3,1
+2025-03-18 09:57:26,428,boots,11,black,timberland,200,3,3
+2025-03-18 09:57:25,429,sneakers,11,black,nike,70,2,1
+2025-03-18 09:57:24,430,sneakers,12,red,nike,70,3,3
+2025-03-18 09:57:23,431,sneakers,6,red,reebok,70,2,2
+2025-03-18 09:57:22,432,boots,11,black,timberland,120,5,1
+2025-03-18 09:57:21,433,boots,8,brown,caterpillar,200,5,2
+2025-03-18 09:57:20,434,sneakers,10,red,adidas,50,3,3
+2025-03-18 09:57:19,435,sneakers,11,white,adidas,90,5,4
+2025-03-18 09:57:18,436,sneakers,6,black,adidas,70,5,2
+2025-03-18 09:57:17,437,sneakers,12,white,adidas,70,1,3
+2025-03-18 09:57:16,438,boots,13,black,caterpillar,120,1,2
+2025-03-18 09:57:15,439,boots,11,tan,dr martens,140,3,2
+2025-03-18 09:57:14,440,boots,11,brown,caterpillar,160,5,4
+2025-03-18 09:57:13,441,boots,13,black,timberland,140,1,1
+2025-03-18 09:57:12,442,boots,12,brown,caterpillar,180,3,4
+2025-03-18 09:57:11,443,sneakers,10,green,new balance,60,2,5
+2025-03-18 09:57:10,444,sneakers,11,white,reebok,70,5,4
+2025-03-18 09:57:09,445,sneakers,9,green,nike,100,2,1
+2025-03-18 09:57:08,446,boots,11,black,caterpillar,160,5,3
+2025-03-18 09:57:07,447,boots,9,brown,caterpillar,140,4,4
+2025-03-18 09:57:06,448,sneakers,12,red,nike,100,2,1
+2025-03-18 09:57:05,449,boots,13,black,dr martens,120,5,4
+2025-03-18 09:57:04,450,sneakers,8,blue,adidas,50,4,5
+2025-03-18 09:57:03,451,boots,8,brown,caterpillar,200,2,3
+2025-03-18 09:57:02,452,sneakers,7,red,reebok,50,1,4
+2025-03-18 09:57:01,453,sneakers,8,green,adidas,60,2,3
+2025-03-18 09:57:00,454,sneakers,12,green,nike,90,2,1
+2025-03-18 09:56:59,455,sneakers,8,white,reebok,50,5,4
+2025-03-18 09:56:58,456,sneakers,10,green,adidas,80,1,1
+2025-03-18 09:56:57,457,boots,11,black,dr martens,200,4,2
+2025-03-18 09:56:56,458,sneakers,11,green,new balance,70,5,1
+2025-03-18 09:56:55,459,boots,11,tan,dr martens,140,3,3
+2025-03-18 09:56:54,460,boots,13,black,timberland,100,4,5
+2025-03-18 09:56:53,461,sneakers,12,green,new balance,70,4,1
+2025-03-18 09:56:52,462,boots,14,tan,timberland,200,1,4
+2025-03-18 09:56:51,463,sneakers,8,white,new balance,60,2,4
+2025-03-18 09:56:50,464,sneakers,6,green,new balance,90,1,3
+2025-03-18 09:56:49,465,boots,8,brown,timberland,200,1,3
+2025-03-18 09:56:48,466,sneakers,8,red,new balance,100,3,1
+2025-03-18 09:56:47,467,boots,9,black,timberland,120,1,4
+2025-03-18 09:56:46,468,sneakers,6,white,reebok,90,1,2
+2025-03-18 09:56:45,469,boots,10,brown,dr martens,120,2,2
+2025-03-18 09:56:44,470,boots,7,black,timberland,120,3,2
+2025-03-18 09:56:43,471,sneakers,11,white,nike,70,4,2
+2025-03-18 09:56:42,472,boots,12,tan,caterpillar,180,5,5
+2025-03-18 09:56:41,473,sneakers,6,blue,reebok,90,3,2
+2025-03-18 09:56:40,474,sneakers,11,red,nike,50,5,1
+2025-03-18 09:56:39,475,sneakers,10,black,adidas,50,1,5
+2025-03-18 09:56:38,476,boots,13,tan,caterpillar,140,5,3
+2025-03-18 09:56:37,477,sneakers,12,white,reebok,60,3,4
+2025-03-18 09:56:36,478,sneakers,9,red,reebok,80,5,3
+2025-03-18 09:56:35,479,sneakers,8,white,nike,60,2,4
+2025-03-18 09:56:34,480,sneakers,8,black,adidas,50,3,4
+2025-03-18 09:56:33,481,sneakers,7,blue,reebok,60,4,3
+2025-03-18 09:56:32,482,boots,13,tan,caterpillar,140,1,4
+2025-03-18 09:56:31,483,sneakers,8,white,nike,70,2,5
+2025-03-18 09:56:30,484,boots,14,brown,timberland,160,5,4
+2025-03-18 09:56:29,485,boots,12,brown,dr martens,140,3,5
+2025-03-18 09:56:28,486,sneakers,7,blue,nike,50,4,4
+2025-03-18 09:56:27,487,sneakers,8,blue,new balance,60,5,5
+2025-03-18 09:56:26,488,boots,11,tan,caterpillar,100,1,1
+2025-03-18 09:56:25,489,boots,8,black,dr martens,160,3,5
+2025-03-18 09:56:24,490,boots,12,tan,timberland,100,5,5
+2025-03-18 09:56:23,491,sneakers,11,blue,new balance,80,2,1
+2025-03-18 09:56:22,492,boots,13,tan,dr martens,120,3,2
+2025-03-18 09:56:21,493,sneakers,9,blue,adidas,60,5,2
+2025-03-18 09:56:20,494,sneakers,10,white,nike,90,5,2
+2025-03-18 09:56:19,495,sneakers,7,blue,adidas,90,2,2
+2025-03-18 09:56:18,496,sneakers,11,green,new balance,60,2,4
+2025-03-18 09:56:17,497,boots,10,brown,timberland,140,1,1
+2025-03-18 09:56:16,498,boots,9,black,caterpillar,120,2,3
+2025-03-18 09:56:15,499,boots,7,brown,caterpillar,200,1,2
+2025-03-18 09:56:14,500,boots,10,brown,dr martens,180,5,3
+2025-03-18 09:56:13,501,sneakers,12,red,nike,80,2,3
+2025-03-18 09:56:12,502,boots,6,tan,timberland,120,1,4
+2025-03-18 09:56:11,503,boots,12,black,dr martens,180,3,4
+2025-03-18 09:56:10,504,sneakers,7,blue,new balance,70,1,2
+2025-03-18 09:56:09,505,sneakers,7,red,reebok,70,2,1
+2025-03-18 09:56:08,506,boots,8,brown,dr martens,120,1,2
+2025-03-18 09:56:07,507,sneakers,10,blue,new balance,70,1,5
+2025-03-18 09:56:06,508,boots,7,black,timberland,140,2,5
+2025-03-18 09:56:05,509,boots,13,brown,caterpillar,180,4,5
+2025-03-18 09:56:04,510,sneakers,10,red,reebok,80,3,3
+2025-03-18 09:56:03,511,sneakers,10,green,reebok,50,2,5
+2025-03-18 09:56:02,512,sneakers,8,green,nike,70,3,3
+2025-03-18 09:56:01,513,sneakers,7,white,nike,50,3,2
+2025-03-18 09:56:00,514,sneakers,9,green,new balance,90,1,3
+2025-03-18 09:55:59,515,sneakers,8,green,adidas,60,2,2
+2025-03-18 09:55:58,516,sneakers,12,black,reebok,80,4,1
+2025-03-18 09:55:57,517,boots,9,black,caterpillar,120,5,4
+2025-03-18 09:55:56,518,sneakers,6,blue,adidas,100,3,4
+2025-03-18 09:55:55,519,sneakers,8,red,reebok,90,5,4
+2025-03-18 09:55:54,520,boots,7,black,timberland,100,3,1
+2025-03-18 09:55:53,521,boots,13,black,dr martens,200,3,3
+2025-03-18 09:55:52,522,boots,9,brown,timberland,160,3,2
+2025-03-18 09:55:51,523,boots,6,brown,caterpillar,140,3,5
+2025-03-18 09:55:50,524,sneakers,11,black,new balance,50,5,3
+2025-03-18 09:55:49,525,boots,12,brown,dr martens,200,4,2
+2025-03-18 09:55:48,526,boots,12,black,dr martens,180,4,3
+2025-03-18 09:55:47,527,boots,13,brown,dr martens,120,3,4
+2025-03-18 09:55:46,528,sneakers,10,green,new balance,60,5,2
+2025-03-18 09:55:45,529,sneakers,6,red,nike,70,1,5
+2025-03-18 09:55:44,530,boots,12,brown,timberland,120,3,1
+2025-03-18 09:55:43,531,boots,8,black,caterpillar,140,1,2
+2025-03-18 09:55:42,532,sneakers,9,green,new balance,80,5,5
+2025-03-18 09:55:41,533,boots,14,tan,caterpillar,160,3,3
+2025-03-18 09:55:40,534,sneakers,10,blue,reebok,80,4,1
+2025-03-18 09:55:39,535,boots,8,tan,dr martens,140,5,2
+2025-03-18 09:55:38,536,sneakers,6,red,new balance,50,4,1
+2025-03-18 09:55:37,537,boots,8,brown,dr martens,140,1,4
+2025-03-18 09:55:36,538,sneakers,12,green,reebok,90,5,1
+2025-03-18 09:55:35,539,sneakers,8,white,nike,100,2,1
+2025-03-18 09:55:34,540,sneakers,12,white,nike,80,5,3
+2025-03-18 09:55:33,541,boots,9,black,dr martens,140,1,2
+2025-03-18 09:55:32,542,boots,12,black,dr martens,100,4,2
+2025-03-18 09:55:31,543,sneakers,7,white,reebok,50,3,2
+2025-03-18 09:55:30,544,boots,8,brown,dr martens,160,1,5
+2025-03-18 09:55:29,545,boots,12,black,caterpillar,100,1,4
+2025-03-18 09:55:28,546,sneakers,9,black,adidas,50,3,2
+2025-03-18 09:55:27,547,sneakers,10,red,reebok,60,1,5
+2025-03-18 09:55:26,548,sneakers,10,blue,nike,60,3,3
+2025-03-18 09:55:25,549,boots,6,black,timberland,140,5,2
+2025-03-18 09:55:24,550,sneakers,10,black,reebok,60,3,4
+2025-03-18 09:55:23,551,boots,14,tan,timberland,160,5,5
+2025-03-18 09:55:22,552,boots,11,brown,caterpillar,200,2,2
+2025-03-18 09:55:21,553,sneakers,7,blue,nike,70,1,2
+2025-03-18 09:55:20,554,boots,7,black,timberland,140,4,4
+2025-03-18 09:55:19,555,sneakers,6,blue,adidas,80,1,5
+2025-03-18 09:55:18,556,boots,11,black,caterpillar,200,5,1
+2025-03-18 09:55:17,557,boots,14,black,dr martens,160,2,4
+2025-03-18 09:55:16,558,boots,11,tan,timberland,180,2,3
+2025-03-18 09:55:15,559,boots,7,brown,timberland,140,4,5
+2025-03-18 09:55:14,560,sneakers,10,black,nike,100,5,2
+2025-03-18 09:55:13,561,sneakers,11,green,nike,50,5,3
+2025-03-18 09:55:12,562,boots,8,brown,timberland,100,1,2
+2025-03-18 09:55:11,563,sneakers,8,white,nike,90,5,5
+2025-03-18 09:55:10,564,boots,12,tan,timberland,200,4,1
+2025-03-18 09:55:09,565,boots,14,tan,timberland,140,1,5
+2025-03-18 09:55:08,566,sneakers,6,white,adidas,50,1,4
+2025-03-18 09:55:07,567,boots,6,brown,timberland,160,1,1
+2025-03-18 09:55:06,568,sneakers,9,white,nike,100,4,3
+2025-03-18 09:55:05,569,sneakers,12,white,new balance,90,5,1
+2025-03-18 09:55:04,570,boots,14,black,timberland,100,3,1
+2025-03-18 09:55:03,571,sneakers,9,red,adidas,50,2,3
+2025-03-18 09:55:02,572,sneakers,11,white,adidas,50,1,3
+2025-03-18 09:55:01,573,boots,6,brown,dr martens,160,1,4
+2025-03-18 09:55:00,574,sneakers,9,green,nike,50,4,4
+2025-03-18 09:54:59,575,boots,14,brown,caterpillar,200,4,4
+2025-03-18 09:54:58,576,sneakers,10,green,adidas,60,3,2
+2025-03-18 09:54:57,577,boots,8,brown,caterpillar,140,1,2
+2025-03-18 09:54:56,578,sneakers,9,blue,new balance,70,5,1
+2025-03-18 09:54:55,579,boots,13,brown,timberland,160,4,2
+2025-03-18 09:54:54,580,sneakers,11,red,adidas,50,5,4
+2025-03-18 09:54:53,581,boots,9,brown,caterpillar,100,5,1
+2025-03-18 09:54:52,582,sneakers,12,green,adidas,70,5,1
+2025-03-18 09:54:51,583,boots,7,brown,caterpillar,120,3,1
+2025-03-18 09:54:50,584,boots,14,black,dr martens,160,1,2
+2025-03-18 09:54:49,585,boots,10,tan,dr martens,140,4,1
+2025-03-18 09:54:48,586,sneakers,11,blue,reebok,70,4,3
+2025-03-18 09:54:47,587,boots,14,black,caterpillar,120,4,2
+2025-03-18 09:54:46,588,boots,7,black,timberland,160,4,5
+2025-03-18 09:54:45,589,sneakers,9,white,reebok,60,3,4
+2025-03-18 09:54:44,590,boots,13,tan,caterpillar,160,4,1
+2025-03-18 09:54:43,591,sneakers,11,green,adidas,80,1,2
+2025-03-18 09:54:42,592,boots,13,brown,dr martens,140,1,2
+2025-03-18 09:54:41,593,sneakers,12,white,new balance,90,4,3
+2025-03-18 09:54:40,594,sneakers,9,red,adidas,80,1,2
+2025-03-18 09:54:39,595,sneakers,6,green,nike,80,4,2
+2025-03-18 09:54:38,596,sneakers,7,green,nike,60,5,3
+2025-03-18 09:54:37,597,sneakers,8,blue,reebok,50,1,5
+2025-03-18 09:54:36,598,sneakers,11,blue,nike,90,4,1
+2025-03-18 09:54:35,599,sneakers,12,green,adidas,50,3,2
+2025-03-18 09:54:34,600,boots,10,tan,caterpillar,120,4,2
+2025-03-18 09:54:33,601,boots,7,black,caterpillar,140,4,5
+2025-03-18 09:54:32,602,sneakers,10,blue,nike,70,3,5
+2025-03-18 09:54:31,603,boots,14,black,timberland,180,1,5
+2025-03-18 09:54:30,604,boots,7,tan,caterpillar,100,1,2
+2025-03-18 09:54:29,605,boots,14,black,caterpillar,180,2,5
+2025-03-18 09:54:28,606,boots,11,black,dr martens,200,2,1
+2025-03-18 09:54:27,607,sneakers,8,black,reebok,50,2,5
+2025-03-18 09:54:26,608,sneakers,6,white,nike,60,2,2
+2025-03-18 09:54:25,609,sneakers,8,green,adidas,60,2,3
+2025-03-18 09:54:24,610,boots,6,brown,caterpillar,180,1,4
+2025-03-18 09:54:23,611,boots,14,black,timberland,200,1,3
+2025-03-18 09:54:22,612,sneakers,12,white,nike,80,4,5
+2025-03-18 09:54:21,613,boots,11,brown,dr martens,100,4,3
+2025-03-18 09:54:20,614,boots,14,tan,caterpillar,180,1,1
+2025-03-18 09:54:19,615,sneakers,8,green,adidas,100,1,5
+2025-03-18 09:54:18,616,sneakers,11,blue,nike,50,2,1
+2025-03-18 09:54:17,617,boots,13,black,dr martens,160,1,1
+2025-03-18 09:54:16,618,sneakers,6,blue,adidas,70,3,3
+2025-03-18 09:54:15,619,sneakers,11,black,nike,90,3,5
+2025-03-18 09:54:14,620,boots,11,brown,dr martens,180,4,2
+2025-03-18 09:54:13,621,sneakers,7,black,reebok,90,2,1
+2025-03-18 09:54:12,622,sneakers,10,red,reebok,100,5,2
+2025-03-18 09:54:11,623,sneakers,10,black,nike,50,5,5
+2025-03-18 09:54:10,624,sneakers,9,red,adidas,80,1,1
+2025-03-18 09:54:09,625,boots,7,black,timberland,100,2,1
+2025-03-18 09:54:08,626,boots,12,tan,dr martens,100,4,4
+2025-03-18 09:54:07,627,boots,13,brown,dr martens,200,5,5
+2025-03-18 09:54:06,628,boots,14,tan,timberland,160,4,5
+2025-03-18 09:54:05,629,boots,11,tan,timberland,120,3,5
+2025-03-18 09:54:04,630,sneakers,11,blue,nike,70,3,5
+2025-03-18 09:54:03,631,boots,10,black,timberland,160,4,5
+2025-03-18 09:54:02,632,boots,12,black,dr martens,120,3,3
+2025-03-18 09:54:01,633,sneakers,9,white,new balance,80,1,4
+2025-03-18 09:54:00,634,boots,11,black,timberland,120,4,3
+2025-03-18 09:53:59,635,boots,12,black,dr martens,120,3,5
+2025-03-18 09:53:58,636,boots,9,tan,timberland,140,4,3
+2025-03-18 09:53:57,637,sneakers,6,green,nike,100,3,5
+2025-03-18 09:53:56,638,boots,10,brown,caterpillar,160,4,4
+2025-03-18 09:53:55,639,boots,10,black,timberland,140,5,4
+2025-03-18 09:53:54,640,sneakers,6,red,nike,60,5,1
+2025-03-18 09:53:53,641,sneakers,6,white,new balance,90,3,4
+2025-03-18 09:53:52,642,sneakers,11,green,reebok,80,1,5
+2025-03-18 09:53:51,643,boots,11,tan,caterpillar,100,4,5
+2025-03-18 09:53:50,644,sneakers,7,red,new balance,70,2,5
+2025-03-18 09:53:49,645,sneakers,12,black,adidas,60,1,5
+2025-03-18 09:53:48,646,boots,11,black,dr martens,180,5,3
+2025-03-18 09:53:47,647,boots,10,brown,dr martens,100,2,2
+2025-03-18 09:53:46,648,sneakers,11,blue,reebok,70,5,1
+2025-03-18 09:53:45,649,boots,9,brown,timberland,120,5,3
+2025-03-18 09:53:44,650,boots,11,brown,caterpillar,160,4,4
+2025-03-18 09:53:43,651,boots,14,black,dr martens,160,4,3
+2025-03-18 09:53:42,652,boots,13,black,timberland,100,1,5
+2025-03-18 09:53:41,653,sneakers,12,blue,nike,70,4,5
+2025-03-18 09:53:40,654,boots,8,brown,dr martens,160,4,1
+2025-03-18 09:53:39,655,boots,9,black,timberland,200,5,5
+2025-03-18 09:53:38,656,sneakers,11,white,reebok,80,3,1
+2025-03-18 09:53:37,657,sneakers,8,black,nike,100,1,3
+2025-03-18 09:53:36,658,boots,6,tan,dr martens,180,1,3
+2025-03-18 09:53:35,659,sneakers,8,black,nike,50,3,3
+2025-03-18 09:53:34,660,sneakers,11,blue,reebok,50,2,5
+2025-03-18 09:53:33,661,boots,7,brown,timberland,100,2,4
+2025-03-18 09:53:32,662,sneakers,10,white,new balance,80,5,2
+2025-03-18 09:53:31,663,sneakers,12,blue,nike,100,1,1
+2025-03-18 09:53:30,664,boots,9,brown,dr martens,140,5,2
+2025-03-18 09:53:29,665,sneakers,12,white,new balance,60,4,5
+2025-03-18 09:53:28,666,boots,6,tan,timberland,140,3,1
+2025-03-18 09:53:27,667,boots,12,tan,caterpillar,100,4,4
+2025-03-18 09:53:26,668,boots,7,tan,timberland,140,4,5
+2025-03-18 09:53:25,669,sneakers,9,black,reebok,90,3,4
+2025-03-18 09:53:24,670,sneakers,8,blue,reebok,100,3,5
+2025-03-18 09:53:23,671,sneakers,8,black,reebok,80,2,1
+2025-03-18 09:53:22,672,sneakers,9,green,nike,100,4,4
+2025-03-18 09:53:21,673,boots,6,black,caterpillar,120,5,2
+2025-03-18 09:53:20,674,boots,10,black,caterpillar,180,5,3
+2025-03-18 09:53:19,675,sneakers,6,green,nike,70,4,3
+2025-03-18 09:53:18,676,sneakers,6,red,reebok,80,2,4
+2025-03-18 09:53:17,677,boots,9,tan,caterpillar,180,2,4
+2025-03-18 09:53:16,678,sneakers,11,green,new balance,80,5,5
+2025-03-18 09:53:15,679,boots,6,brown,caterpillar,200,1,3
+2025-03-18 09:53:14,680,sneakers,6,green,reebok,80,2,1
+2025-03-18 09:53:13,681,boots,10,tan,dr martens,160,3,1
+2025-03-18 09:53:12,682,sneakers,8,white,reebok,100,1,4
+2025-03-18 09:53:11,683,boots,11,tan,caterpillar,160,3,3
+2025-03-18 09:53:10,684,sneakers,10,white,reebok,90,2,2
+2025-03-18 09:53:09,685,boots,8,tan,timberland,100,1,2
+2025-03-18 09:53:08,686,sneakers,8,red,new balance,90,4,2
+2025-03-18 09:53:07,687,sneakers,11,blue,adidas,50,3,2
+2025-03-18 09:53:06,688,sneakers,8,blue,nike,70,4,1
+2025-03-18 09:53:05,689,sneakers,8,blue,reebok,80,1,3
+2025-03-18 09:53:04,690,boots,6,tan,caterpillar,140,1,2
+2025-03-18 09:53:03,691,boots,6,black,timberland,140,2,4
+2025-03-18 09:53:02,692,boots,12,brown,timberland,120,3,2
+2025-03-18 09:53:01,693,boots,13,black,dr martens,160,1,4
+2025-03-18 09:53:00,694,sneakers,9,green,new balance,90,2,4
+2025-03-18 09:52:59,695,sneakers,8,blue,nike,60,3,1
+2025-03-18 09:52:58,696,boots,6,brown,dr martens,200,1,1
+2025-03-18 09:52:57,697,sneakers,9,green,nike,50,3,4
+2025-03-18 09:52:56,698,boots,7,black,dr martens,180,5,4
+2025-03-18 09:52:55,699,boots,7,brown,dr martens,160,5,1
+2025-03-18 09:52:54,700,boots,8,black,dr martens,120,3,5
+2025-03-18 09:52:53,701,boots,12,brown,dr martens,100,1,3
+2025-03-18 09:52:52,702,boots,7,tan,timberland,100,4,4
+2025-03-18 09:52:51,703,sneakers,8,green,nike,60,3,1
+2025-03-18 09:52:50,704,boots,8,tan,dr martens,180,5,2
+2025-03-18 09:52:49,705,boots,13,brown,timberland,160,5,1
+2025-03-18 09:52:48,706,boots,6,black,dr martens,100,2,3
+2025-03-18 09:52:47,707,boots,8,black,caterpillar,100,3,4
+2025-03-18 09:52:46,708,boots,13,brown,dr martens,100,3,4
+2025-03-18 09:52:45,709,boots,9,brown,caterpillar,140,5,3
+2025-03-18 09:52:44,710,boots,9,brown,dr martens,180,5,5
+2025-03-18 09:52:43,711,boots,14,tan,timberland,120,4,3
+2025-03-18 09:52:42,712,sneakers,12,blue,new balance,60,5,3
+2025-03-18 09:52:41,713,sneakers,11,white,adidas,80,4,1
+2025-03-18 09:52:40,714,boots,14,tan,timberland,160,2,3
+2025-03-18 09:52:39,715,sneakers,12,green,new balance,100,5,2
+2025-03-18 09:52:38,716,boots,10,tan,timberland,140,2,3
+2025-03-18 09:52:37,717,sneakers,12,white,adidas,70,2,1
+2025-03-18 09:52:36,718,sneakers,8,blue,adidas,70,1,3
+2025-03-18 09:52:35,719,sneakers,9,white,new balance,70,3,3
+2025-03-18 09:52:34,720,sneakers,10,black,reebok,60,5,2
+2025-03-18 09:52:33,721,boots,9,brown,timberland,180,3,2
+2025-03-18 09:52:32,722,boots,7,brown,timberland,120,3,1
+2025-03-18 09:52:31,723,sneakers,8,blue,new balance,60,1,2
+2025-03-18 09:52:30,724,boots,9,brown,dr martens,180,4,4
+2025-03-18 09:52:29,725,sneakers,7,green,nike,60,1,2
+2025-03-18 09:52:28,726,sneakers,11,green,reebok,80,2,4
+2025-03-18 09:52:27,727,boots,14,black,timberland,200,3,5
+2025-03-18 09:52:26,728,boots,6,tan,dr martens,160,4,1
+2025-03-18 09:52:25,729,boots,14,black,dr martens,140,5,5
+2025-03-18 09:52:24,730,sneakers,8,black,nike,50,4,5
+2025-03-18 09:52:23,731,sneakers,8,white,adidas,60,3,2
+2025-03-18 09:52:22,732,boots,13,tan,caterpillar,160,4,3
+2025-03-18 09:52:21,733,sneakers,8,white,adidas,70,2,4
+2025-03-18 09:52:20,734,boots,12,brown,timberland,120,4,3
+2025-03-18 09:52:19,735,sneakers,7,white,reebok,90,5,5
+2025-03-18 09:52:18,736,boots,13,black,timberland,180,1,3
+2025-03-18 09:52:17,737,sneakers,11,green,new balance,90,4,1
+2025-03-18 09:52:16,738,sneakers,8,white,nike,50,2,1
+2025-03-18 09:52:15,739,sneakers,8,red,adidas,70,4,2
+2025-03-18 09:52:14,740,sneakers,12,white,new balance,80,2,4
+2025-03-18 09:52:13,741,sneakers,6,green,adidas,70,1,4
+2025-03-18 09:52:12,742,boots,10,tan,dr martens,100,2,1
+2025-03-18 09:52:11,743,boots,8,black,dr martens,120,1,5
+2025-03-18 09:52:10,744,sneakers,7,blue,new balance,60,5,3
+2025-03-18 09:52:09,745,sneakers,8,blue,new balance,90,3,2
+2025-03-18 09:52:08,746,sneakers,12,black,nike,80,3,1
+2025-03-18 09:52:07,747,boots,14,brown,timberland,100,2,1
+2025-03-18 09:52:06,748,sneakers,10,green,new balance,90,5,2
+2025-03-18 09:52:05,749,sneakers,10,blue,nike,90,2,5
+2025-03-18 09:52:04,750,sneakers,7,red,adidas,100,3,4
+2025-03-18 09:52:03,751,boots,6,black,timberland,160,5,5
+2025-03-18 09:52:02,752,boots,10,brown,dr martens,140,1,1
+2025-03-18 09:52:01,753,boots,11,brown,caterpillar,160,3,4
+2025-03-18 09:52:00,754,sneakers,9,white,new balance,70,1,2
+2025-03-18 09:51:59,755,boots,6,brown,timberland,140,1,5
+2025-03-18 09:51:58,756,sneakers,12,blue,new balance,50,5,3
+2025-03-18 09:51:57,757,boots,13,brown,caterpillar,180,3,2
+2025-03-18 09:51:56,758,boots,14,brown,timberland,160,3,4
+2025-03-18 09:51:55,759,boots,14,black,caterpillar,120,2,1
+2025-03-18 09:51:54,760,boots,9,brown,dr martens,100,4,4
+2025-03-18 09:51:53,761,boots,12,brown,dr martens,200,5,2
+2025-03-18 09:51:52,762,sneakers,7,red,adidas,90,1,3
+2025-03-18 09:51:51,763,sneakers,6,green,reebok,70,3,4
+2025-03-18 09:51:50,764,boots,9,brown,caterpillar,100,4,2
+2025-03-18 09:51:49,765,sneakers,10,green,nike,90,2,4
+2025-03-18 09:51:48,766,sneakers,9,green,nike,50,2,3
+2025-03-18 09:51:47,767,boots,6,brown,dr martens,180,3,1
+2025-03-18 09:51:46,768,sneakers,9,red,nike,70,5,2
+2025-03-18 09:51:45,769,boots,6,brown,timberland,180,2,3
+2025-03-18 09:51:44,770,sneakers,12,red,reebok,70,4,3
+2025-03-18 09:51:43,771,boots,9,tan,timberland,120,5,3
+2025-03-18 09:51:42,772,boots,11,tan,dr martens,200,5,3
+2025-03-18 09:51:41,773,boots,11,brown,timberland,120,2,4
+2025-03-18 09:51:40,774,boots,9,brown,dr martens,140,5,1
+2025-03-18 09:51:39,775,boots,7,black,caterpillar,200,1,4
+2025-03-18 09:51:38,776,sneakers,8,green,reebok,100,4,4
+2025-03-18 09:51:37,777,sneakers,10,blue,adidas,90,5,4
+2025-03-18 09:51:36,778,boots,11,tan,timberland,140,5,3
+2025-03-18 09:51:35,779,sneakers,11,green,adidas,70,2,3
+2025-03-18 09:51:34,780,boots,13,tan,timberland,120,5,4
+2025-03-18 09:51:33,781,sneakers,12,white,adidas,90,4,1
+2025-03-18 09:51:32,782,boots,7,brown,timberland,120,1,5
+2025-03-18 09:51:31,783,sneakers,7,black,nike,100,4,4
+2025-03-18 09:51:30,784,boots,9,brown,caterpillar,140,3,4
+2025-03-18 09:51:29,785,sneakers,6,blue,new balance,70,4,5
+2025-03-18 09:51:28,786,sneakers,7,red,adidas,50,5,5
+2025-03-18 09:51:27,787,sneakers,7,white,nike,80,5,1
+2025-03-18 09:51:26,788,boots,13,black,caterpillar,200,5,1
+2025-03-18 09:51:25,789,boots,8,brown,timberland,120,5,3
+2025-03-18 09:51:24,790,sneakers,10,green,reebok,80,2,2
+2025-03-18 09:51:23,791,sneakers,12,blue,new balance,50,3,1
+2025-03-18 09:51:22,792,sneakers,6,white,reebok,80,4,4
+2025-03-18 09:51:21,793,boots,12,black,caterpillar,140,4,1
+2025-03-18 09:51:20,794,sneakers,8,white,new balance,90,4,4
+2025-03-18 09:51:19,795,boots,11,tan,dr martens,160,3,1
+2025-03-18 09:51:18,796,sneakers,8,green,new balance,80,5,3
+2025-03-18 09:51:17,797,sneakers,11,blue,new balance,60,1,2
+2025-03-18 09:51:16,798,boots,12,black,caterpillar,180,3,1
+2025-03-18 09:51:15,799,boots,13,brown,timberland,100,2,5
+2025-03-18 09:51:14,800,boots,8,tan,dr martens,120,5,5
+2025-03-18 09:51:13,801,boots,14,tan,dr martens,160,3,2
+2025-03-18 09:51:12,802,boots,13,tan,dr martens,180,3,1
+2025-03-18 09:51:11,803,boots,13,tan,dr martens,120,4,2
+2025-03-18 09:51:10,804,boots,13,black,timberland,160,3,3
+2025-03-18 09:51:09,805,boots,9,black,timberland,180,4,1
+2025-03-18 09:51:08,806,sneakers,7,red,reebok,50,3,5
+2025-03-18 09:51:07,807,sneakers,11,white,new balance,70,2,1
+2025-03-18 09:51:06,808,sneakers,6,green,reebok,100,4,4
+2025-03-18 09:51:05,809,sneakers,9,white,nike,100,2,5
+2025-03-18 09:51:04,810,boots,13,black,timberland,200,3,4
+2025-03-18 09:51:03,811,sneakers,8,blue,reebok,80,1,5
+2025-03-18 09:51:02,812,sneakers,7,green,nike,100,5,5
+2025-03-18 09:51:01,813,sneakers,7,green,adidas,90,3,4
+2025-03-18 09:51:00,814,sneakers,12,blue,adidas,80,5,1
+2025-03-18 09:50:59,815,boots,11,black,dr martens,180,5,3
+2025-03-18 09:50:58,816,sneakers,9,blue,nike,60,4,3
+2025-03-18 09:50:57,817,boots,7,tan,dr martens,160,4,4
+2025-03-18 09:50:56,818,sneakers,11,black,adidas,60,5,2
+2025-03-18 09:50:55,819,boots,9,brown,caterpillar,100,1,2
+2025-03-18 09:50:54,820,sneakers,10,green,reebok,50,4,3
+2025-03-18 09:50:53,821,sneakers,6,white,nike,60,2,2
+2025-03-18 09:50:52,822,boots,13,tan,caterpillar,120,1,4
+2025-03-18 09:50:51,823,boots,8,tan,timberland,120,4,1
+2025-03-18 09:50:50,824,boots,9,tan,dr martens,200,5,1
+2025-03-18 09:50:49,825,boots,7,brown,dr martens,200,4,5
+2025-03-18 09:50:48,826,boots,12,tan,caterpillar,200,5,2
+2025-03-18 09:50:47,827,boots,8,brown,dr martens,100,4,1
+2025-03-18 09:50:46,828,sneakers,12,blue,reebok,90,2,1
+2025-03-18 09:50:45,829,boots,8,black,caterpillar,200,5,1
+2025-03-18 09:50:44,830,sneakers,9,green,adidas,100,3,3
+2025-03-18 09:50:43,831,sneakers,8,blue,adidas,70,5,3
+2025-03-18 09:50:42,832,sneakers,11,green,adidas,100,1,3
+2025-03-18 09:50:41,833,sneakers,11,red,adidas,100,3,5
+2025-03-18 09:50:40,834,boots,6,tan,timberland,160,5,3
+2025-03-18 09:50:39,835,boots,9,brown,dr martens,120,1,2
+2025-03-18 09:50:38,836,boots,7,brown,timberland,120,4,3
+2025-03-18 09:50:37,837,boots,7,brown,timberland,200,1,2
+2025-03-18 09:50:36,838,boots,9,brown,timberland,140,5,3
+2025-03-18 09:50:35,839,sneakers,8,white,adidas,70,3,2
+2025-03-18 09:50:34,840,boots,11,brown,dr martens,100,1,5
+2025-03-18 09:50:33,841,boots,13,brown,dr martens,160,3,5
+2025-03-18 09:50:32,842,boots,10,black,timberland,140,4,5
+2025-03-18 09:50:31,843,boots,12,tan,caterpillar,120,4,5
+2025-03-18 09:50:30,844,sneakers,10,green,nike,90,1,4
+2025-03-18 09:50:29,845,boots,12,brown,dr martens,120,5,2
+2025-03-18 09:50:28,846,sneakers,8,black,reebok,80,1,4
+2025-03-18 09:50:27,847,boots,13,brown,dr martens,180,3,3
+2025-03-18 09:50:26,848,sneakers,9,green,adidas,60,2,2
+2025-03-18 09:50:25,849,boots,12,black,dr martens,120,5,2
+2025-03-18 09:50:24,850,sneakers,8,white,reebok,70,1,2
+2025-03-18 09:50:23,851,sneakers,9,black,adidas,50,5,4
+2025-03-18 09:50:22,852,sneakers,6,black,reebok,70,4,1
+2025-03-18 09:50:21,853,boots,14,brown,timberland,180,4,5
+2025-03-18 09:50:20,854,sneakers,9,black,nike,100,3,3
+2025-03-18 09:50:19,855,sneakers,7,black,new balance,80,3,1
+2025-03-18 09:50:18,856,sneakers,10,black,nike,80,4,3
+2025-03-18 09:50:17,857,sneakers,10,white,nike,80,4,4
+2025-03-18 09:50:16,858,boots,11,brown,timberland,160,5,5
+2025-03-18 09:50:15,859,sneakers,9,red,reebok,80,1,4
+2025-03-18 09:50:14,860,sneakers,10,blue,reebok,100,4,5
+2025-03-18 09:50:13,861,boots,12,black,timberland,120,4,3
+2025-03-18 09:50:12,862,sneakers,10,white,nike,100,5,4
+2025-03-18 09:50:11,863,boots,8,brown,dr martens,200,1,3
+2025-03-18 09:50:10,864,boots,7,tan,caterpillar,140,5,5
+2025-03-18 09:50:09,865,boots,9,tan,caterpillar,200,2,1
+2025-03-18 09:50:08,866,sneakers,9,black,reebok,50,1,4
+2025-03-18 09:50:07,867,boots,7,brown,caterpillar,180,4,1
+2025-03-18 09:50:06,868,sneakers,9,blue,new balance,100,3,1
+2025-03-18 09:50:05,869,sneakers,8,green,adidas,80,2,2
+2025-03-18 09:50:04,870,sneakers,10,white,nike,90,2,3
+2025-03-18 09:50:03,871,boots,9,brown,dr martens,200,2,2
+2025-03-18 09:50:02,872,sneakers,10,red,adidas,80,5,2
+2025-03-18 09:50:01,873,sneakers,11,black,adidas,70,1,5
+2025-03-18 09:50:00,874,sneakers,7,red,new balance,50,2,5
+2025-03-18 09:49:59,875,boots,11,brown,timberland,140,1,3
+2025-03-18 09:49:58,876,sneakers,12,blue,adidas,50,3,4
+2025-03-18 09:49:57,877,sneakers,12,red,adidas,70,4,3
+2025-03-18 09:49:56,878,boots,6,tan,dr martens,140,3,3
+2025-03-18 09:49:55,879,sneakers,6,white,adidas,100,1,4
+2025-03-18 09:49:54,880,sneakers,12,blue,new balance,80,3,5
+2025-03-18 09:49:53,881,sneakers,9,green,reebok,70,5,2
+2025-03-18 09:49:52,882,sneakers,12,red,new balance,100,3,1
+2025-03-18 09:49:51,883,sneakers,12,white,new balance,80,4,2
+2025-03-18 09:49:50,884,boots,14,black,dr martens,120,1,1
+2025-03-18 09:49:49,885,boots,10,black,dr martens,180,1,4
+2025-03-18 09:49:48,886,sneakers,6,white,new balance,50,3,5
+2025-03-18 09:49:47,887,sneakers,9,white,nike,60,4,5
+2025-03-18 09:49:46,888,boots,6,tan,timberland,140,2,2
+2025-03-18 09:49:45,889,boots,7,brown,timberland,200,5,2
+2025-03-18 09:49:44,890,boots,6,tan,dr martens,200,1,5
+2025-03-18 09:49:43,891,boots,9,black,dr martens,160,2,3
+2025-03-18 09:49:42,892,boots,12,black,dr martens,160,1,1
+2025-03-18 09:49:41,893,boots,6,tan,caterpillar,160,1,2
+2025-03-18 09:49:40,894,boots,6,black,timberland,200,2,1
+2025-03-18 09:49:39,895,boots,11,tan,timberland,180,4,2
+2025-03-18 09:49:38,896,boots,10,brown,timberland,120,4,2
+2025-03-18 09:49:37,897,boots,12,black,timberland,160,3,1
+2025-03-18 09:49:36,898,sneakers,6,red,nike,100,3,1
+2025-03-18 09:49:35,899,boots,10,tan,dr martens,200,4,5
+2025-03-18 09:49:34,900,sneakers,11,red,nike,70,5,1
+2025-03-18 09:49:33,901,boots,11,tan,caterpillar,200,3,3
+2025-03-18 09:49:32,902,boots,14,brown,dr martens,100,3,2
+2025-03-18 09:49:31,903,boots,8,brown,dr martens,120,3,5
+2025-03-18 09:49:30,904,sneakers,9,blue,nike,80,5,2
+2025-03-18 09:49:29,905,boots,6,black,timberland,160,1,3
+2025-03-18 09:49:28,906,sneakers,7,white,nike,90,4,3
+2025-03-18 09:49:27,907,sneakers,8,red,nike,80,4,5
+2025-03-18 09:49:26,908,boots,12,brown,caterpillar,120,4,1
+2025-03-18 09:49:25,909,boots,14,brown,dr martens,200,3,5
+2025-03-18 09:49:24,910,sneakers,7,blue,reebok,80,1,3
+2025-03-18 09:49:23,911,boots,14,tan,dr martens,120,5,1
+2025-03-18 09:49:22,912,sneakers,8,blue,reebok,60,1,1
+2025-03-18 09:49:21,913,sneakers,11,red,nike,90,5,1
+2025-03-18 09:49:20,914,boots,11,brown,caterpillar,180,4,3
+2025-03-18 09:49:19,915,sneakers,12,blue,nike,60,5,2
+2025-03-18 09:49:18,916,sneakers,8,white,nike,90,3,1
+2025-03-18 09:49:17,917,boots,12,brown,timberland,200,4,3
+2025-03-18 09:49:16,918,sneakers,10,white,adidas,60,2,5
+2025-03-18 09:49:15,919,boots,14,brown,caterpillar,120,1,1
+2025-03-18 09:49:14,920,sneakers,7,green,adidas,70,5,2
+2025-03-18 09:49:13,921,sneakers,12,white,reebok,90,1,5
+2025-03-18 09:49:12,922,boots,10,tan,dr martens,160,5,3
+2025-03-18 09:49:11,923,boots,14,black,timberland,120,4,1
+2025-03-18 09:49:10,924,boots,7,tan,caterpillar,140,5,4
+2025-03-18 09:49:09,925,sneakers,12,black,adidas,80,1,3
+2025-03-18 09:49:08,926,sneakers,6,green,nike,80,1,4
+2025-03-18 09:49:07,927,boots,13,tan,dr martens,120,2,4
+2025-03-18 09:49:06,928,boots,14,black,dr martens,120,2,3
+2025-03-18 09:49:05,929,sneakers,8,white,reebok,80,5,2
+2025-03-18 09:49:04,930,sneakers,6,green,reebok,70,3,3
+2025-03-18 09:49:03,931,sneakers,10,white,new balance,80,2,1
+2025-03-18 09:49:02,932,sneakers,9,white,nike,100,4,4
+2025-03-18 09:49:01,933,sneakers,12,red,adidas,80,4,3
+2025-03-18 09:49:00,934,boots,11,black,dr martens,200,2,2
+2025-03-18 09:48:59,935,boots,7,tan,timberland,120,2,4
+2025-03-18 09:48:58,936,boots,14,brown,timberland,160,1,5
+2025-03-18 09:48:57,937,boots,12,tan,dr martens,180,5,1
+2025-03-18 09:48:56,938,boots,12,black,caterpillar,120,5,5
+2025-03-18 09:48:55,939,boots,6,black,caterpillar,180,4,3
+2025-03-18 09:48:54,940,boots,14,brown,dr martens,160,5,1
+2025-03-18 09:48:53,941,boots,10,black,caterpillar,180,5,5
+2025-03-18 09:48:52,942,boots,12,black,timberland,100,1,5
+2025-03-18 09:48:51,943,sneakers,10,black,adidas,80,4,1
+2025-03-18 09:48:50,944,sneakers,11,white,new balance,60,1,4
+2025-03-18 09:48:49,945,boots,8,brown,caterpillar,160,4,2
+2025-03-18 09:48:48,946,sneakers,8,black,new balance,80,3,2
+2025-03-18 09:48:47,947,sneakers,7,white,new balance,50,1,3
+2025-03-18 09:48:46,948,boots,6,tan,caterpillar,120,4,1
+2025-03-18 09:48:45,949,sneakers,7,green,nike,80,5,3
+2025-03-18 09:48:44,950,sneakers,9,white,nike,80,1,3
+2025-03-18 09:48:43,951,sneakers,8,white,nike,60,3,3
+2025-03-18 09:48:42,952,boots,13,tan,dr martens,140,4,5
+2025-03-18 09:48:41,953,boots,14,black,timberland,160,5,2
+2025-03-18 09:48:40,954,sneakers,9,red,reebok,90,3,1
+2025-03-18 09:48:39,955,boots,8,tan,dr martens,200,2,1
+2025-03-18 09:48:38,956,sneakers,6,blue,new balance,100,4,5
+2025-03-18 09:48:37,957,boots,7,black,dr martens,140,4,3
+2025-03-18 09:48:36,958,sneakers,8,red,adidas,60,5,1
+2025-03-18 09:48:35,959,boots,9,black,timberland,120,3,1
+2025-03-18 09:48:34,960,boots,6,tan,dr martens,100,5,2
+2025-03-18 09:48:33,961,sneakers,8,blue,new balance,90,4,4
+2025-03-18 09:48:32,962,sneakers,11,red,adidas,90,2,4
+2025-03-18 09:48:31,963,boots,12,black,caterpillar,180,2,3
+2025-03-18 09:48:30,964,boots,11,black,dr martens,100,4,4
+2025-03-18 09:48:29,965,sneakers,12,white,new balance,60,1,5
+2025-03-18 09:48:28,966,sneakers,7,black,adidas,100,1,5
+2025-03-18 09:48:27,967,boots,6,brown,timberland,200,4,1
+2025-03-18 09:48:26,968,boots,12,tan,caterpillar,100,3,3
+2025-03-18 09:48:25,969,sneakers,6,red,nike,70,1,2
+2025-03-18 09:48:24,970,sneakers,6,blue,reebok,70,4,1
+2025-03-18 09:48:23,971,boots,12,brown,dr martens,160,4,5
+2025-03-18 09:48:22,972,boots,11,black,caterpillar,100,3,2
+2025-03-18 09:48:21,973,sneakers,9,white,reebok,60,1,2
+2025-03-18 09:48:20,974,sneakers,8,black,reebok,60,2,1
+2025-03-18 09:48:19,975,sneakers,12,black,reebok,100,1,1
+2025-03-18 09:48:18,976,sneakers,10,blue,reebok,50,4,3
+2025-03-18 09:48:17,977,sneakers,10,red,nike,70,2,4
+2025-03-18 09:48:16,978,sneakers,8,blue,reebok,70,1,3
+2025-03-18 09:48:15,979,sneakers,11,red,new balance,100,3,4
+2025-03-18 09:48:14,980,sneakers,11,red,nike,60,4,3
+2025-03-18 09:48:13,981,sneakers,9,green,reebok,50,3,2
+2025-03-18 09:48:12,982,boots,6,black,timberland,140,4,2
+2025-03-18 09:48:11,983,sneakers,11,green,reebok,50,2,4
+2025-03-18 09:48:10,984,sneakers,8,white,adidas,100,4,1
+2025-03-18 09:48:09,985,boots,8,brown,caterpillar,200,2,3
+2025-03-18 09:48:08,986,boots,12,black,caterpillar,200,1,1
+2025-03-18 09:48:07,987,boots,14,brown,dr martens,200,5,5
+2025-03-18 09:48:06,988,boots,12,brown,caterpillar,100,3,2
+2025-03-18 09:48:05,989,boots,9,brown,timberland,180,1,5
+2025-03-18 09:48:04,990,boots,10,brown,dr martens,140,3,2
+2025-03-18 09:48:03,991,sneakers,9,black,new balance,70,1,5
+2025-03-18 09:48:02,992,sneakers,10,white,adidas,80,2,1
+2025-03-18 09:48:01,993,sneakers,7,blue,nike,70,1,5
+2025-03-18 09:48:00,994,sneakers,6,green,nike,50,1,3
+2025-03-18 09:47:59,995,sneakers,12,blue,new balance,100,4,4
+2025-03-18 09:47:58,996,boots,13,black,timberland,180,4,5
+2025-03-18 09:47:57,997,sneakers,11,red,adidas,50,4,2
+2025-03-18 09:47:56,998,boots,11,black,caterpillar,120,1,1
+2025-03-18 09:47:55,999,boots,11,black,dr martens,100,1,5
+2025-03-18 09:47:54,1000,boots,14,tan,timberland,180,2,4
