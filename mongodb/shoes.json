@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2025-03-18T10:04:33",
+    "shoe_id": 1,
+    "shoe_type": "sneakers",
+    "shoe_size": 7,
+    "shoe_color": "red",
+    "shoe_brand": "reebok",
+    "price": 70,
+    "popularity": 3,
+    "durability": 2
+  },
+  {
+    "timestamp": "2025-03-18T10:04:32",
+    "shoe_id": 2,
+    "shoe_type": "sneakers",
+    "shoe_size": 9,
+    "shoe_color": "blue",
+    "shoe_brand": "adidas",
+    "price": 100,
+    "popularity": 3,
+    "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:04:31",
+    "shoe_id": 3,
+    "shoe_type": "boots",
+    "shoe_size": 8,
+    "shoe_color": "brown",
+    "shoe_brand": "dr martens",
+    "price": 100,
+    "popularity": 2,
+    "durability": 1
+  },
+  {
+    "timestamp": "2025-03-18T10:04:30",
+    "shoe_id": 4,
+    "shoe_type": "boots",
+    "shoe_size": 8,
+    "shoe_color": "brown",
+    "shoe_brand": "dr martens",
+    "price": 180,
+    "popularity": 3,
+    "durability": 5
+  }
+]
