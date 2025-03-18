@@ -1,8 +1,9 @@
 import express, { json } from "express";
 import cors from "cors";
 
-import productsRoutes from "./routes/productsRoutes.js";
-import ordersRoutes from "./routes/ordersRoutes.js";
+// Routes
+import ordersRoutes from "../routes/ordersRoutes.js";
+import productsRoutes from "../routes/productsRoutes.js";
 
 const app = express();
 
