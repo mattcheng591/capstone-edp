@@ -5,7 +5,7 @@ const Search = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`/search`, {
+    fetch(`http://localhost:5050/search`, {
       method: "POST",
       body: JSON.stringify({ searchTerm }),
       headers: {
@@ -15,7 +15,7 @@ const Search = (props) => {
       .then((response) => response.json())
       .then((data) => {
         // Handle the response data
-        props.setData(data);
+        props.setShoes(data);
         console.log(data);
       })
       .catch((error) => {

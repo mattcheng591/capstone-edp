@@ -3,14 +3,15 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css";
 import Search from "./Search";
+import { useState } from "react";
 
 const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
   const navigate = useNavigate();
-
+  const [shoeCards, setShoes] = useState([]); // State for shoes data
   return (
     <div>
       <h1>Travis Scott's Astronomical Online Store</h1>
-      <Search></Search>
+      <Search setShoes={setShoes}></Search>
       <div className="shoe-cards">
         {shoes.map((shoe) => (
           <div className="shoe-card" key={shoe.shoeId}>
