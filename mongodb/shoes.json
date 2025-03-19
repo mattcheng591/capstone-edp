@@ -1,7 +1,7 @@
 [
   {
     "timestamp": "2025-03-18T10:04:33",
-    "shoe_id": 1,
+    "shoeId": 1,
     "shoe_type": "sneakers",
     "shoe_size": 7,
     "shoe_color": "red",
@@ -12,7 +12,7 @@
   },
   {
     "timestamp": "2025-03-18T10:04:32",
-    "shoe_id": 2,
+    "shoeId": 2,
     "shoe_type": "sneakers",
     "shoe_size": 9,
     "shoe_color": "blue",
@@ -23,7 +23,7 @@
   },
   {
     "timestamp": "2025-03-18T10:04:31",
-    "shoe_id": 3,
+    "shoeId": 3,
     "shoe_type": "boots",
     "shoe_size": 8,
     "shoe_color": "brown",
@@ -34,7 +34,7 @@
   },
   {
     "timestamp": "2025-03-18T10:04:30",
-    "shoe_id": 4,
+    "shoeId": 4,
     "shoe_type": "boots",
     "shoe_size": 8,
     "shoe_color": "brown",

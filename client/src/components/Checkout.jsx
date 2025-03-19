@@ -18,7 +18,7 @@ const Checkout = ({ cart, removeFromCart, totalPrice }) => {
             </h2>
             <p>Price: ${shoe.price}</p>
             <p>Quantity: {shoe.quantity}</p>
-            <button onClick={() => removeFromCart(shoe.shoe_id)}>
+            <button onClick={() => removeFromCart(shoe.shoeId)}>
               Remove from Cart
             </button>
           </div>

@@ -19,7 +19,7 @@ for i in range(1, NUM_ROWS + 1):
     # Generate random values for each column
     timestamp = datetime.now() - timedelta(seconds=i)
     shoe_type = choose_a_shoe()
-    shoe_id = i
+    shoeId = i
     if (shoe_type == "sneakers"):
         shoe_size = random.choice([6, 7, 8, 9, 10, 11, 12])
         shoe_color = random.choice(["red", "blue", "green", "black", "white"])
@@ -38,7 +38,7 @@ for i in range(1, NUM_ROWS + 1):
     # Create the data row
     data_row = [
         timestamp.strftime("%Y-%m-%d %H:%M:%S"),
-        shoe_id,
+        shoeId,
         shoe_type,
         shoe_size,
         shoe_color,
@@ -56,7 +56,7 @@ with open(OUTPUT_FILE, "w", newline="") as file:
     writer = csv.writer(file)
     writer.writerow(
       [
-        "timestamp", "shoe_id", "shoe_type", "shoe_size", "shoe_color",
+        "timestamp", "shoeId", "shoe_type", "shoe_size", "shoe_color",
         "shoe_brand", "price", "popularity", "durability"
       ]
     )

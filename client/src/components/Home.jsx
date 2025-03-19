@@ -11,7 +11,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
       <h1>Online Store</h1>
       <div className="shoe-cards">
         {shoes.map((shoe) => (
-          <div className="shoe-card" key={shoe.shoe_id}>
+          <div className="shoe-card" key={shoe.shoeId}>
             <h2>
               {shoe.shoe_brand} - {shoe.shoe_type}
             </h2>
@@ -27,8 +27,9 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
         <ul>
           {cart.map((shoe, index) => (
             <li key={index}>
-              {shoe.shoe_brand} - {shoe.shoe_type}: ${shoe.price} Quantity: {shoe.quantity}
-              <button onClick={() => removeFromCart(shoe.shoe_id)}>
+              {shoe.shoe_brand} - {shoe.shoe_type}: ${shoe.price} Quantity:{" "}
+              {shoe.quantity}
+              <button onClick={() => removeFromCart(shoe.shoeId)}>
                 Remove from Cart
               </button>
             </li>

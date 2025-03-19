@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+export let orderData = {};
+
 const Payment = ({ cart, totalPrice }) => {
   const [formData, setFormData] = useState({
     name: "",
@@ -30,11 +32,11 @@ const Payment = ({ cart, totalPrice }) => {
 
     // Map cart items to the products array
     const products = cart.map((item) => ({
-      shoeId: item.shoe_id, // Replace with the actual property name for shoe ID
+      shoeId: item.shoeId, // Replace with the actual property name for shoe ID
       quantity: item.quantity, // Replace with the actual property name for quantity
     }));
     // Restructure the data to match the MongoDB format
-    const orderData = {
+    orderData = {
       orderId: "12345", // Replace with the actual user ID
       products: products,
       total: totalPrice, // Calculate total price

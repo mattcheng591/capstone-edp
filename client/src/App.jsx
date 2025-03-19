@@ -34,7 +34,7 @@ const App = () => {
 
   // const shoes = [
   //   {
-  //     shoe_id: 1,
+  //     shoeId: 1,
   //     shoe_type: "sneakers",
   //     shoe_size: 7,
   //     shoe_color: "red",
@@ -42,7 +42,7 @@ const App = () => {
   //     price: 70,
   //   },
   //   {
-  //     shoe_id: 2,
+  //     shoeId: 2,
   //     shoe_type: "sneakers",
   //     shoe_size: 9,
   //     shoe_color: "blue",
@@ -50,7 +50,7 @@ const App = () => {
   //     price: 100,
   //   },
   //   {
-  //     shoe_id: 1,
+  //     shoeId: 1,
   //     shoe_type: "sneakers",
   //     shoe_size: 7,
   //     shoe_color: "green",
@@ -58,7 +58,7 @@ const App = () => {
   //     price: 70,
   //   },
   //   {
-  //     shoe_id: 2,
+  //     shoeId: 2,
   //     shoe_type: "sneakers",
   //     shoe_size: 9,
   //     shoe_color: "black",
@@ -66,7 +66,7 @@ const App = () => {
   //     price: 100,
   //   },
   //   {
-  //     shoe_id: 1,
+  //     shoeId: 1,
   //     shoe_type: "sneakers",
   //     shoe_size: 7,
   //     shoe_color: "white",
@@ -78,7 +78,7 @@ const App = () => {
 
   const addToCart = (shoe) => {
     const existingShoeIndex = cart.findIndex(
-      (item) => item.shoe_id === shoe.shoe_id
+      (item) => item.shoeId === shoe.shoeId
     );
 
     let updatedCart;
@@ -96,7 +96,7 @@ const App = () => {
   };
 
   const removeFromCart = (shoeId) => {
-    const shoeIndex = cart.findIndex((shoe) => shoe.shoe_id === shoeId);
+    const shoeIndex = cart.findIndex((shoe) => shoe.shoeId === shoeId);
     if (shoeIndex !== -1) {
       const updatedCart = [...cart];
       updatedCart.splice(shoeIndex, 1); // Remove only the first occurrence

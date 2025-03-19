@@ -1,4 +1,4 @@
-timestamp,shoe_id,shoe_type,shoe_size,shoe_color,shoe_brand,price,popularity,durability
+timestamp,shoeId,shoe_type,shoe_size,shoe_color,shoe_brand,price,popularity,durability
 2025-03-18 10:04:33,1,sneakers,7,red,reebok,70,3,2
 2025-03-18 10:04:32,2,sneakers,9,blue,adidas,100,3,5
 2025-03-18 10:04:31,3,boots,8,brown,dr martens,100,2,1

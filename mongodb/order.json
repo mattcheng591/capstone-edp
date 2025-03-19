@@ -1,9 +1,9 @@
 [
   {
-    "orderId": "12345",
+    "orderId": "123452",
     "products": [
       {
-        "productId": 2,
+        "shoeId": 2,
         "quantity": 1
       }
     ],
