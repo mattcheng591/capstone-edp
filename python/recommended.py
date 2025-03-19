@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 
 # Read CSV
 df = pd.read_csv("products.csv")
@@ -26,6 +27,7 @@ model = NearestNeighbors(n_neighbors=5, algorithm='auto')
 model.fit(X)
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/recommend', methods=['POST'])
 def recommend():

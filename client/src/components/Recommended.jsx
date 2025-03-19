@@ -4,7 +4,8 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css"; // Reuse the CSS for card styling
 import { orderData } from "./Payment";
-
+let productDetails = [];
+let recommendedShoes = [];
 async function Recommended() {
   const orderId = orderData.orderId;
 
@@ -19,86 +20,93 @@ async function Recommended() {
 
         // Fetch product details
         const { products } = orderRecord[0];
-        const productDetails = await Promise.all(
+        productDetails = [];
+        await Promise.all(
           products.map(async (product) => {
             const { shoeId } = product;
             try {
               const response = await fetch(
                 `http://localhost:5050/api/products/${shoeId}`
               );
-              return await response.json();
+              const productDetail = await response.json();
+              productDetails.push(productDetail); // Append product to the array
             } catch (error) {
               console.error(
                 `Error fetching product with shoeId ${shoeId}:`,
                 error
               );
-              return null; // Return null for failed requests
             }
           })
         );
 
-        console.log(productDetails); // Log all product details
+        // Post to recommend route
+        try {
+          const recommendResponse = await fetch(
+            "http://127.0.0.1:5000/recommend",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(productDetails),
+            }
+          );
+
+          const recommendedData = await recommendResponse.json();
+          recommendedShoes.push(...recommendedData); // Append the response to the array
+          console.log(recommendedShoes);
+        } catch (err) {
+          console.error("Error fetching recommended shoes:", err);
+        }
       } catch (error) {
         console.error("Error fetching order or products:", error);
       }
     }
 
     fetchOrderAndProducts();
-  }, [orderId]); // Dependency array ensures this runs only when orderId changes
-
-  // try {
-  //   await fetch("http://127.0.0.1:5000/recommend", {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify(recommendedShoes),
-  //   });
-  // } catch (err) {
-  //   console.error("Error fetching recommended shoes:", error);
-  // }
-  const recommendedShoes = [
-    {
-      shoeId: 1,
-      shoe_brand: "Nike",
-      shoe_type: "Running",
-      shoe_color: "Black",
-      shoe_size: 10,
-      price: 120,
-    },
-    {
-      shoeId: 2,
-      shoe_brand: "Adidas",
-      shoe_type: "Sneakers",
-      shoe_color: "White",
-      shoe_size: 9,
-      price: 100,
-    },
-    {
-      shoeId: 3,
-      shoe_brand: "Puma",
-      shoe_type: "Casual",
-      shoe_color: "Blue",
-      shoe_size: 8,
-      price: 90,
-    },
-    {
-      shoeId: 4,
-      shoe_brand: "Reebok",
-      shoe_type: "Training",
-      shoe_color: "Red",
-      shoe_size: 11,
-      price: 110,
-    },
-    {
-      shoeId: 5,
-      shoe_brand: "Under Armour",
-      shoe_type: "Basketball",
-      shoe_color: "Green",
-      shoe_size: 12,
-      price: 130,
-    },
-  ];
+  }, [orderId]);
+  // const recommendedShoes = [
+  //   {
+  //     shoeId: 1,
+  //     shoe_brand: "Nike",
+  //     shoe_type: "Running",
+  //     shoe_color: "Black",
+  //     shoe_size: 10,
+  //     price: 120,
+  //   },
+  //   {
+  //     shoeId: 2,
+  //     shoe_brand: "Adidas",
+  //     shoe_type: "Sneakers",
+  //     shoe_color: "White",
+  //     shoe_size: 9,
+  //     price: 100,
+  //   },
+  //   {
+  //     shoeId: 3,
+  //     shoe_brand: "Puma",
+  //     shoe_type: "Casual",
+  //     shoe_color: "Blue",
+  //     shoe_size: 8,
+  //     price: 90,
+  //   },
+  //   {
+  //     shoeId: 4,
+  //     shoe_brand: "Reebok",
+  //     shoe_type: "Training",
+  //     shoe_color: "Red",
+  //     shoe_size: 11,
+  //     price: 110,
+  //   },
+  //   {
+  //     shoeId: 5,
+  //     shoe_brand: "Under Armour",
+  //     shoe_type: "Basketball",
+  //     shoe_color: "Green",
+  //     shoe_size: 12,
+  //     price: 130,
+  //   },
+  // ];
 
   // Simulate an order number
   const orderNumber = "ORD123456";
