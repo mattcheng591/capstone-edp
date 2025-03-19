@@ -1,20 +1,22 @@
-{
-  "userId": "user123",
-  "products": [
-    {
-      "productId": 2,
-      "quantity": 1
-    }
-  ],
-  "total": 100,
-  "shippingInfo": {
-    "address": "123 Main St",
-    "city": "New York",
-    "postalCode": "10001"
-  },
-  "paymentInfo": {
-    "cardNumber": "1234567812345678",
-    "expiryDate": "12/25"
-  },
-  "status": "Pending"
-}
+[
+  {
+    "orderId": "12345",
+    "products": [
+      {
+        "productId": 2,
+        "quantity": 1
+      }
+    ],
+    "total": 100,
+    "shippingInfo": {
+      "address": "123 Main St",
+      "city": "New York",
+      "postalCode": "10001"
+    },
+    "paymentInfo": {
+      "cardNumber": "1234567812345678",
+      "expiryDate": "12/25"
+    },
+    "status": "Pending"
+  }
+]

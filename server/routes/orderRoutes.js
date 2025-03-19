@@ -26,11 +26,11 @@ router.get("/:id", async (req, res) => {
 
 // Create a new order
 router.post("/", async (req, res) => {
-  const { userId, products, total, shippingInfo, paymentInfo, status } =
+  const { orderId, products, total, shippingInfo, paymentInfo, status } =
     req.body;
 
   if (
-    !userId ||
+    !orderId ||
     !products ||
     !total ||
     !shippingInfo ||

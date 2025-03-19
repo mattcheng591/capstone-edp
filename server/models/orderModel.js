@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const orderSchema = new mongoose.Schema({
-  userId: {
+  orderId: {
     type: String,
     required: true,
     trim: true,

@@ -35,7 +35,7 @@ const Payment = ({ cart, totalPrice }) => {
     }));
     // Restructure the data to match the MongoDB format
     const orderData = {
-      userId: "user123", // Replace with the actual user ID
+      orderId: "12345", // Replace with the actual user ID
       products: products,
       total: totalPrice, // Calculate total price
       shippingInfo: {
