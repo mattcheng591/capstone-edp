@@ -19,9 +19,6 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
             <p>Size: {shoe.shoe_size}</p>
             <p>Price: ${shoe.price}</p>
             <button onClick={() => addToCart(shoe)}>Add to Cart</button>
-            <button onClick={() => removeFromCart(shoe.shoe_id)}>
-              Remove from Cart
-            </button>
           </div>
         ))}
       </div>
@@ -31,6 +28,9 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
           {cart.map((shoe, index) => (
             <li key={index}>
               {shoe.shoe_brand} - {shoe.shoe_type}: ${shoe.price}
+              <button onClick={() => removeFromCart(shoe.shoe_id)}>
+                Remove from Cart
+              </button>
             </li>
           ))}
         </ul>

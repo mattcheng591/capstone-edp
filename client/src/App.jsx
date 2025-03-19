@@ -80,7 +80,12 @@ const App = () => {
   };
 
   const removeFromCart = (shoeId) => {
-    setCart(cart.filter((shoe) => shoe.shoe_id !== shoeId));
+    const shoeIndex = cart.findIndex((shoe) => shoe.shoe_id === shoeId);
+    if (shoeIndex !== -1) {
+      const updatedCart = [...cart];
+      updatedCart.splice(shoeIndex, 1); // Remove only the first occurrence
+      setCart(updatedCart);
+    }
   };
 
   return (
@@ -100,7 +105,7 @@ const App = () => {
           />
           <Route path="/checkout" element={<Checkout cart={cart} />} />
           <Route path="/recommended" element={<Recommended />} />
-          <Route path="/payment" element={<Payment />} />{" "}
+          <Route path="/payment" element={<Payment cart={cart} />} />
           <Route path="/addshoe" element={<RequireAuth></RequireAuth>} />
           {/* <Route path="/Login" element={<LoginForm />} /> */}
           {/* Add the PaymentPage route */}
