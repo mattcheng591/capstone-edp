@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const Payment = ({ cart }) => {
+const Payment = ({ cart, totalPrice }) => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -37,7 +37,7 @@ const Payment = ({ cart }) => {
     const orderData = {
       userId: "user123", // Replace with the actual user ID
       products: products,
-      total: total, // Calculate total price
+      total: totalPrice, // Calculate total price
       shippingInfo: {
         address: formData.address,
         city: formData.city,

@@ -13,6 +13,7 @@ const App = () => {
   const [cart, setCart] = useState([]);
   const [shoes, setShoes] = useState([]); // State for shoes data
   const [loading, setLoading] = useState(true); // State for loading
+  const [totalPrice, setTotalPrice] = useState(0);
 
   // Fetch shoes data from the backend
   useEffect(() => {
@@ -76,7 +77,22 @@ const App = () => {
   // ];
 
   const addToCart = (shoe) => {
-    setCart([...cart, shoe]);
+    const existingShoeIndex = cart.findIndex(
+      (item) => item.shoe_id === shoe.shoe_id
+    );
+
+    let updatedCart;
+    if (existingShoeIndex !== -1) {
+      // Shoe already exists in the cart, update its quantity
+      updatedCart = [...cart];
+      updatedCart[existingShoeIndex].quantity += 1;
+    } else {
+      // Shoe doesn't exist in the cart, add it with quantity 1
+      updatedCart = [...cart, { ...shoe, quantity: 1 }];
+    }
+
+    setCart(updatedCart);
+    updateTotalPrice(updatedCart); // Update total price
   };
 
   const removeFromCart = (shoeId) => {
@@ -85,7 +101,16 @@ const App = () => {
       const updatedCart = [...cart];
       updatedCart.splice(shoeIndex, 1); // Remove only the first occurrence
       setCart(updatedCart);
+      updateTotalPrice(updatedCart); // Update total price
     }
+  };
+
+  const updateTotalPrice = (cart) => {
+    const total = cart.reduce(
+      (sum, item) => sum + item.price * item.quantity,
+      0
+    );
+    setTotalPrice(total);
   };
 
   return (
@@ -103,9 +128,21 @@ const App = () => {
               />
             }
           />
-          <Route path="/checkout" element={<Checkout cart={cart} />} />
+          <Route
+            path="/checkout"
+            element={
+              <Checkout
+                cart={cart}
+                totalPrice={totalPrice}
+                removeFromCart={removeFromCart}
+              />
+            }
+          />
           <Route path="/recommended" element={<Recommended />} />
-          <Route path="/payment" element={<Payment cart={cart} />} />
+          <Route
+            path="/payment"
+            element={<Payment cart={cart} totalPrice={totalPrice} />}
+          />
           <Route path="/addshoe" element={<RequireAuth></RequireAuth>} />
           {/* <Route path="/Login" element={<LoginForm />} /> */}
           {/* Add the PaymentPage route */}

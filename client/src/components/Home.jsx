@@ -27,7 +27,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
         <ul>
           {cart.map((shoe, index) => (
             <li key={index}>
-              {shoe.shoe_brand} - {shoe.shoe_type}: ${shoe.price}
+              {shoe.shoe_brand} - {shoe.shoe_type}: ${shoe.price} Quantity: {shoe.quantity}
               <button onClick={() => removeFromCart(shoe.shoe_id)}>
                 Remove from Cart
               </button>
