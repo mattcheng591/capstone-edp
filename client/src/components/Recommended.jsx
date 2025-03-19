@@ -130,23 +130,33 @@ function Recommended() {
   }
 
   return (
-    <div>
-      <h1>Thank You for Your Purchase!</h1>
-      <p>Your order number is: {orderNumber}</p>
-      <h2>Recommended for You</h2>
-      <div className="shoe-cards">
+    <div className="container mt-4">
+      <h1 className="text-center mb-4">Thank You for Your Purchase!</h1>
+      <p className="text-center">
+        Your order number is: <strong>{orderNumber}</strong>
+      </p>
+      <h2 className="text-center mb-4">Recommended for You</h2>
+      <div className="row">
         {recommendedProducts.map((shoe) => (
-          <div className="shoe-card" key={shoe.shoeId}>
-            <h2>
-              {shoe.shoe_brand} - {shoe.shoe_type}
-            </h2>
-            <p>Color: {shoe.shoe_color}</p>
-            <p>Size: {shoe.shoe_size}</p>
-            <p>Price: ${shoe.price}</p>
+          <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">
+                  {shoe.shoe_brand} - {shoe.shoe_type}
+                </h5>
+                <p className="card-text">Color: {shoe.shoe_color}</p>
+                <p className="card-text">Size: {shoe.shoe_size}</p>
+                <p className="card-text">Price: ${shoe.price}</p>
+              </div>
+            </div>
           </div>
         ))}
       </div>
-      <button onClick={() => navigate("/")}>Go Home</button>
+      <div className="text-center mt-4">
+        <button className="btn btn-primary" onClick={() => navigate("/")}>
+          Go Home
+        </button>
+      </div>
     </div>
   );
 }

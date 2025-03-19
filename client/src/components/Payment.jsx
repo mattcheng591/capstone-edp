@@ -15,7 +15,6 @@ const Payment = ({ cart, totalPrice }) => {
     expirationDate: "",
     cvv: "",
   });
-  const total = cart.reduce((sum, shoe) => sum + shoe.price, 0);
 
   const navigate = useNavigate();
 
@@ -32,14 +31,15 @@ const Payment = ({ cart, totalPrice }) => {
 
     // Map cart items to the products array
     const products = cart.map((item) => ({
-      shoeId: item.shoeId, // Replace with the actual property name for shoe ID
-      quantity: item.quantity, // Replace with the actual property name for quantity
+      shoeId: item.shoeId,
+      quantity: item.quantity,
     }));
+
     // Restructure the data to match the MongoDB format
     orderData = {
-      orderId: "12345", // Replace with the actual user ID
+      orderId: "12345",
       products: products,
-      total: totalPrice, // Calculate total price
+      total: totalPrice,
       shippingInfo: {
         address: formData.address,
         city: formData.city,
@@ -52,10 +52,9 @@ const Payment = ({ cart, totalPrice }) => {
       status: "Pending",
     };
 
-    console.log("Order data being sent:", orderData); // Debugging log
+    console.log("Order data being sent:", orderData);
 
     try {
-      // Send the order data to the backend
       const response = await fetch("http://localhost:5050/api/orders", {
         method: "POST",
         headers: {
@@ -66,7 +65,7 @@ const Payment = ({ cart, totalPrice }) => {
 
       if (response.ok) {
         console.log("Order successfully submitted:", orderData);
-        navigate("/recommended"); // Navigate to the recommended page
+        navigate("/recommended");
       } else {
         console.error("Failed to submit order");
       }
@@ -76,100 +75,140 @@ const Payment = ({ cart, totalPrice }) => {
   };
 
   return (
-    <div>
-      <h1>Payment Page</h1>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Name:</label>
+    <div className="container mt-4">
+      <h1 className="text-center mb-4">Payment Page</h1>
+      <form onSubmit={handleSubmit} className="row g-3">
+        <div className="col-md-6">
+          <label htmlFor="name" className="form-label">
+            Name
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="name"
             name="name"
             value={formData.name}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>Email:</label>
+        <div className="col-md-6">
+          <label htmlFor="email" className="form-label">
+            Email
+          </label>
           <input
             type="email"
+            className="form-control"
+            id="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>Address:</label>
+        <div className="col-12">
+          <label htmlFor="address" className="form-label">
+            Address
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="address"
             name="address"
             value={formData.address}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>City:</label>
+        <div className="col-md-6">
+          <label htmlFor="city" className="form-label">
+            City
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="city"
             name="city"
             value={formData.city}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>State:</label>
+        <div className="col-md-4">
+          <label htmlFor="state" className="form-label">
+            State
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="state"
             name="state"
             value={formData.state}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>Zip Code:</label>
+        <div className="col-md-2">
+          <label htmlFor="zip" className="form-label">
+            Zip Code
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="zip"
             name="zip"
             value={formData.zip}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>Card Number:</label>
+        <div className="col-md-6">
+          <label htmlFor="cardNumber" className="form-label">
+            Card Number
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="cardNumber"
             name="cardNumber"
             value={formData.cardNumber}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>Expiration Date:</label>
+        <div className="col-md-3">
+          <label htmlFor="expirationDate" className="form-label">
+            Expiration Date
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="expirationDate"
             name="expirationDate"
             value={formData.expirationDate}
             onChange={handleChange}
             required
           />
         </div>
-        <div>
-          <label>CVV:</label>
+        <div className="col-md-3">
+          <label htmlFor="cvv" className="form-label">
+            CVV
+          </label>
           <input
             type="text"
+            className="form-control"
+            id="cvv"
             name="cvv"
             value={formData.cvv}
             onChange={handleChange}
             required
           />
         </div>
-        <button type="submit">Submit Payment</button>
+        <div className="col-12 text-center">
+          <button type="submit" className="btn btn-success">
+            Submit Payment
+          </button>
+        </div>
       </form>
     </div>
   );
