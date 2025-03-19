@@ -1,13 +1,15 @@
 // RecommendedPage.jsx
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css"; // Reuse the CSS for card styling
 import { orderData } from "./Payment";
-let productDetails = [];
-let recommendedShoes = [];
-async function Recommended() {
+
+function Recommended() {
+  const navigate = useNavigate();
   const orderId = orderData.orderId;
+  // const [productDetail, setProductDetail] = useState([]);
+  const [recommendedProducts, setRecommendedProducts] = useState([]);
 
   useEffect(() => {
     async function fetchOrderAndProducts() {
@@ -20,8 +22,7 @@ async function Recommended() {
 
         // Fetch product details
         const { products } = orderRecord[0];
-        productDetails = [];
-        await Promise.all(
+        const productDetails = await Promise.all(
           products.map(async (product) => {
             const { shoeId } = product;
             try {
@@ -29,15 +30,28 @@ async function Recommended() {
                 `http://localhost:5050/api/products/${shoeId}`
               );
               const productDetail = await response.json();
-              productDetails.push(productDetail); // Append product to the array
+              console.log("product detail: ", productDetail);
+
+              // Return the product detail for further processing
+              return productDetail;
             } catch (error) {
               console.error(
                 `Error fetching product with shoeId ${shoeId}:`,
                 error
               );
+              return null; // Return null if there's an error
             }
           })
         );
+
+        // Filter out null values and preprocess the data
+        const sanitizedProductDetails = productDetails
+          .filter((detail) => detail !== null) // Remove null entries
+          .map((detail) => {
+            // Remove unwanted fields like _id and timestamp
+            const { _id, timestamp, ...rest } = detail;
+            return rest;
+          });
 
         // Post to recommend route
         try {
@@ -48,13 +62,13 @@ async function Recommended() {
               headers: {
                 "Content-Type": "application/json",
               },
-              body: JSON.stringify(productDetails),
+              body: JSON.stringify(sanitizedProductDetails), // Send sanitized data
             }
           );
 
           const recommendedData = await recommendResponse.json();
-          recommendedShoes.push(...recommendedData); // Append the response to the array
-          console.log(recommendedShoes);
+          console.log("Recommended shoes: ", recommendedData);
+          setRecommendedProducts(recommendedData); // Update state with recommended shoes
         } catch (err) {
           console.error("Error fetching recommended shoes:", err);
         }
@@ -110,6 +124,9 @@ async function Recommended() {
 
   // Simulate an order number
   const orderNumber = "ORD123456";
+  if (recommendedProducts.length === 0) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div>
@@ -117,7 +134,7 @@ async function Recommended() {
       <p>Your order number is: {orderNumber}</p>
       <h2>Recommended for You</h2>
       <div className="shoe-cards">
-        {recommendedShoes.map((shoe) => (
+        {recommendedProducts.map((shoe) => (
           <div className="shoe-card" key={shoe.shoeId}>
             <h2>
               {shoe.shoe_brand} - {shoe.shoe_type}
