@@ -26,15 +26,29 @@ router.get("/:id", async (req, res) => {
 
 // Create a new order
 router.post("/", async (req, res) => {
-  const order = new Order(req.body);
+  const { user_id, products, total, shippingInfo, paymentInfo, status } =
+    req.body;
+
+  if (
+    !user_id ||
+    !products ||
+    !total ||
+    !shippingInfo ||
+    !paymentInfo ||
+    !status
+  ) {
+    return res.status(400).json({ error: "Missing required fields" });
+  }
+
   try {
-    const newOrder = await order.save();
-    res.status(201).json(newOrder);
-  } catch (err) {
-    res.status(400).json({ message: err.message });
+    const newOrder = new Order(req.body);
+    await newOrder.save();
+    res.status(201).json({ message: "Order created successfully" });
+  } catch (error) {
+    console.error("Error creating order:", error);
+    res.status(500).json({ error: "Failed to create order" });
   }
 });
-
 // Update an order
 router.put("/:id", async (req, res) => {
   try {

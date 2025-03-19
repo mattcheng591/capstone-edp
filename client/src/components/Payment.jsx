@@ -1,4 +1,3 @@
-// PaymentPage.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -27,19 +26,41 @@ const Payment = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Simulate form submission and navigate to the RecommendedPage
-        try {
-      // Send the form data to the backend
+
+    // Restructure the data to match the MongoDB format
+    const orderData = {
+      user_id: "user123", // Replace with the actual user ID
+      products: [
+        { shoe_id: 1, quantity: 2 }, // Replace with actual product and quantity data
+        { shoe_id: 2, quantity: 1 },
+      ],
+      total: 99.99, // Replace with the actual total amount
+      shippingInfo: {
+        address: formData.address,
+        city: formData.city,
+        postalCode: formData.zip,
+      },
+      paymentInfo: {
+        cardNumber: formData.cardNumber,
+        expiryDate: formData.expirationDate,
+      },
+      status: "Pending",
+    };
+
+    console.log("Order data being sent:", orderData); // Debugging log
+
+    try {
+      // Send the order data to the backend
       const response = await fetch("http://localhost:5050/api/orders", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(orderData),
       });
 
       if (response.ok) {
-        console.log("Order successfully submitted:", formData);
+        console.log("Order successfully submitted:", orderData);
         navigate("/recommended"); // Navigate to the recommended page
       } else {
         console.error("Failed to submit order");
@@ -47,8 +68,6 @@ const Payment = () => {
     } catch (error) {
       console.error("Error submitting order:", error);
     }
-    console.log("Payment Information Submitted:", formData);
-    navigate("/recommended");
   };
 
   return (
