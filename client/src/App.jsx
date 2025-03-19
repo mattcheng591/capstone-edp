@@ -7,7 +7,9 @@ import Home from "./components/Home";
 import Checkout from "./components/Checkout";
 import Recommended from "./components/Recommended";
 import Payment from "./components/Payment";
-
+import LoginForm from "./components/LoginForm";
+import RequireAuth from "./components/RequireAuth";
+import { AuthProvider } from "./components/AuthContext";
 const App = () => {
   const [cart, setCart] = useState([]);
   const shoes = [
@@ -64,23 +66,34 @@ const App = () => {
 
   return (
     <Router>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <Home
-              shoes={shoes}
-              cart={cart}
-              addToCart={addToCart}
-              removeFromCart={removeFromCart}
-            />
-          }
-        />
-        <Route path="/checkout" element={<Checkout cart={cart} />} />
-        <Route path="/recommended" element={<Recommended />} />
-        <Route path="/payment" element={<Payment />} />{" "}
-        {/* Add the PaymentPage route */}
-      </Routes>
+      <AuthProvider>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <Home
+                shoes={shoes}
+                cart={cart}
+                addToCart={addToCart}
+                removeFromCart={removeFromCart}
+              />
+            }
+          />
+          <Route path="/checkout" element={<Checkout cart={cart} />} />
+          <Route path="/recommended" element={<Recommended />} />
+          <Route path="/payment" element={<Payment />} />{" "}
+          <Route
+            path="/addsock"
+            element={
+              <RequireAuth>
+                
+              </RequireAuth>
+            }
+          />
+          <Route path="/Login" element={<LoginForm />} />
+          {/* Add the PaymentPage route */}
+        </Routes>
+      </AuthProvider>
     </Router>
   );
 };
