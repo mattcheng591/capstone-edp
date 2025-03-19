@@ -13,6 +13,7 @@ const Payment = ({ cart }) => {
     expirationDate: "",
     cvv: "",
   });
+  const total = cart.reduce((sum, shoe) => sum + shoe.price, 0);
 
   const navigate = useNavigate();
 
@@ -36,7 +37,7 @@ const Payment = ({ cart }) => {
     const orderData = {
       userId: "user123", // Replace with the actual user ID
       products: products,
-      total: cart.total, // Calculate total price
+      total: total, // Calculate total price
       shippingInfo: {
         address: formData.address,
         city: formData.city,
