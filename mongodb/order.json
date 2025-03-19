@@ -2,7 +2,7 @@
   "userId": "user123",
   "products": [
     {
-      "shoeId": 2,
+      "productId": 2,
       "quantity": 1
     }
   ],

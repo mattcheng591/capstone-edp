@@ -9,7 +9,7 @@ const orderSchema = new mongoose.Schema({
   products: [
     {
       shoeId: {
-        type: String,
+        type: Number,
         required: true,
         trim: true,
       },
