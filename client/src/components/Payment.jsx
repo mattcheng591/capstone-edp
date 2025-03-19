@@ -25,9 +25,28 @@ const Payment = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Simulate form submission and navigate to the RecommendedPage
+        try {
+      // Send the form data to the backend
+      const response = await fetch("http://localhost:5050/api/orders", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        console.log("Order successfully submitted:", formData);
+        navigate("/recommended"); // Navigate to the recommended page
+      } else {
+        console.error("Failed to submit order");
+      }
+    } catch (error) {
+      console.error("Error submitting order:", error);
+    }
     console.log("Payment Information Submitted:", formData);
     navigate("/recommended");
   };
