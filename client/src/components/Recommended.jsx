@@ -63,6 +63,7 @@ function Recommended() {
                 "Content-Type": "application/json",
               },
               body: JSON.stringify(sanitizedProductDetails), // Send sanitized data
+            //   mode: 'no-cors'
             }
           );
 
