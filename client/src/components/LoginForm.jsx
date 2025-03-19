@@ -40,10 +40,10 @@ function LoginForm() {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        {/* <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary">
           Login
-        </button> */}
-        <button onClick={() => navigate("/checkout")}>Login</button>
+        </button>
+        <button onClick={() => navigate("/checkout")}>Proceed to Payment</button>
       </form>
     </div>
   );
