@@ -8,7 +8,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
 
   return (
     <div>
-      <h1>Online Store</h1>
+      <h1>Travis Scott's Astronomical Online Store</h1>
       <div className="shoe-cards">
         {shoes.map((shoe) => (
           <div className="shoe-card" key={shoe.shoeId}>

@@ -32,50 +32,6 @@ const App = () => {
     fetchShoes();
   }, []);
 
-  // const shoes = [
-  //   {
-  //     shoeId: 1,
-  //     shoe_type: "sneakers",
-  //     shoe_size: 7,
-  //     shoe_color: "red",
-  //     shoe_brand: "reebok",
-  //     price: 70,
-  //   },
-  //   {
-  //     shoeId: 2,
-  //     shoe_type: "sneakers",
-  //     shoe_size: 9,
-  //     shoe_color: "blue",
-  //     shoe_brand: "adidas",
-  //     price: 100,
-  //   },
-  //   {
-  //     shoeId: 1,
-  //     shoe_type: "sneakers",
-  //     shoe_size: 7,
-  //     shoe_color: "green",
-  //     shoe_brand: "reebok",
-  //     price: 70,
-  //   },
-  //   {
-  //     shoeId: 2,
-  //     shoe_type: "sneakers",
-  //     shoe_size: 9,
-  //     shoe_color: "black",
-  //     shoe_brand: "adidas",
-  //     price: 100,
-  //   },
-  //   {
-  //     shoeId: 1,
-  //     shoe_type: "sneakers",
-  //     shoe_size: 7,
-  //     shoe_color: "white",
-  //     shoe_brand: "reebok",
-  //     price: 70,
-  //   },
-  //   // Add more shoes as needed
-  // ];
-
   const addToCart = (shoe) => {
     const existingShoeIndex = cart.findIndex(
       (item) => item.shoeId === shoe.shoeId
