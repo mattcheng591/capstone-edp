@@ -18,7 +18,7 @@ const App = () => {
   useEffect(() => {
     const fetchShoes = async () => {
       try {
-        const response = await fetch("/api/products"); // Replace with your API endpoint
+        const response = await fetch("http://localhost:5050/api/products"); // Replace with your API endpoint
         const data = await response.json();
         setShoes(data);
         setLoading(false);
@@ -30,7 +30,7 @@ const App = () => {
 
     fetchShoes();
   }, []);
-  
+
   // const shoes = [
   //   {
   //     shoe_id: 1,
@@ -101,8 +101,8 @@ const App = () => {
           <Route path="/checkout" element={<Checkout cart={cart} />} />
           <Route path="/recommended" element={<Recommended />} />
           <Route path="/payment" element={<Payment />} />{" "}
-          <Route path="/addsock" element={<RequireAuth></RequireAuth>} />
-          <Route path="/Login" element={<LoginForm />} />
+          <Route path="/addshoe" element={<RequireAuth></RequireAuth>} />
+          {/* <Route path="/Login" element={<LoginForm />} /> */}
           {/* Add the PaymentPage route */}
         </Routes>
       </AuthProvider>

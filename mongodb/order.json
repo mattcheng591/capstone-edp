@@ -1,13 +1,13 @@
 [
   {
-    "userId": "user123",
+    "user_id": "user123",
     "products": [
       {
-        "productId": "prod001",
+        "shoe_id": 1,
         "quantity": 2
       },
       {
-        "productId": "prod002",
+        "shoe_id": 2,
         "quantity": 1
       }
     ],

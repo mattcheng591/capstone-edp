@@ -36,7 +36,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
         </ul>
       </div>
       <div>
-        <button onClick={() => navigate("/login")}>Login</button>
+        <button onClick={() => navigate("/checkout")}>Checkout</button>
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 from flask import Flask, request, jsonify
-from pymongo import MongoClient
 
 # Read CSV
 df = pd.read_csv("products.csv")
@@ -27,11 +26,6 @@ model = NearestNeighbors(n_neighbors=5, algorithm='auto')
 model.fit(X)
 
 app = Flask(__name__)
-
-
-client = MongoClient("mongodb://localhost:27017/")
-db = client["online_store"]
-orders_collection = db["orders"]
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -60,19 +54,8 @@ def recommend():
     '''
 
     try:
-        user_data = request.get_json()
-        user_id = user_data.get("user_id")
-
-        if not user_id:
-          return jsonify({"error": "user_id is required"}), 400
-        
-        user_orders = list(orders_collection.find({"user_id": user_id}))
-
-        if not user_orders:
-            return jsonify({"error": "No orders found for this user"}), 404
-
         # Get the JSON data from the POST request
-        current_purchases = user_orders
+        current_purchases = request.json
 
         # Create a DataFrame for the current purchases
         current_purchases_df = pd.DataFrame(current_purchases)
