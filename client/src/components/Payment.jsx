@@ -29,12 +29,9 @@ const Payment = () => {
 
     // Restructure the data to match the MongoDB format
     const orderData = {
-      user_id: "user123", // Replace with the actual user ID
-      products: [
-        { shoe_id: 1, quantity: 2 }, // Replace with actual product and quantity data
-        { shoe_id: 2, quantity: 1 },
-      ],
-      total: 99.99, // Replace with the actual total amount
+      userId: "user123", // Replace with the actual user ID
+      products: [{ shoeId: 2, quantity: 1 }],
+      total: 100.0, // Replace with the actual total amount
       shippingInfo: {
         address: formData.address,
         city: formData.city,
