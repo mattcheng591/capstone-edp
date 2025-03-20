@@ -44,31 +44,34 @@ const Filter = (props) => {
 
   return (
     <form>
-      <div className="form-check">
-        <input
-          className="form-check-input"
-          type="checkbox"
-          id="boots"
-          name="boots"
-          checked={filterType.boots}
-          onChange={handleCheckboxChange}
-        />
-        <label className="form-check-label" htmlFor="boots">
-          Boots
-        </label>
-      </div>
-      <div className="form-check">
-        <input
-          className="form-check-input"
-          type="checkbox"
-          id="sneakers"
-          name="sneakers"
-          checked={filterType.sneakers}
-          onChange={handleCheckboxChange}
-        />
-        <label className="form-check-label" htmlFor="sneakers">
-          Sneakers
-        </label>
+      <div className="checkbox-wrapper-1">
+        <div>
+          <input
+            className="substituted"
+            type="checkbox"
+            id="boots"
+            name="boots"
+            checked={filterType.boots}
+            onChange={handleCheckboxChange}
+            aria-hidden="true"
+          />
+          <label className="form-check-label" htmlFor="boots">
+            Boots
+          </label>
+        </div>
+        <div>
+          <input
+            className="substituted"
+            type="checkbox"
+            id="sneakers"
+            name="sneakers"
+            checked={filterType.sneakers}
+            onChange={handleCheckboxChange}
+          />
+          <label className="form-check-label" htmlFor="sneakers">
+            Sneakers
+          </label>
+        </div>
       </div>
     </form>
   );
