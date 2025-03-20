@@ -125,7 +125,6 @@ ul {
 
 ul li {
   list-style: none;
-  margin: 0 20px;
   transition: 0.5s;
 }
 
@@ -139,6 +138,11 @@ ul li .navbar-brand {
   color: white;
   text-transform: uppercase;
   transition: 0.5s;
+  margin: 10px;
+}
+
+.navContainer {
+  margin-right: 30px;
 }
 
 ul:hover li .navbar-brand {

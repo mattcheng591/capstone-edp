@@ -4,7 +4,7 @@ import "../App.css";
 
 const NavBar = () => {
   return (
-    <div>
+    <div className="navContainer">
       <ul>
         <li>
           <Link to="/" className="navbar-brand">

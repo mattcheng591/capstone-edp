@@ -6,7 +6,7 @@ const About = () => {
       <div className="container mt-4">
         <h1 className="text-center mb-4 text-white">About Us</h1>
 
-        <div className="p-4 border rounded bg-dark text-white">
+        <div className="p-4 border customFooter bg-dark text-white ">
           <p>
             Welcome to <strong>Travis Scott's Astronomical Online Store</strong>
             , your ultimate destination for premium footwear. We are passionate

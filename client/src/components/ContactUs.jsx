@@ -6,7 +6,7 @@ const ContactUs = () => {
       <div className="container mt-4">
         <h1 className="text-center mb-4 text-white">Contact Us</h1>
 
-        <div className="p-4 border rounded bg-dark text-white">
+        <div className="p-4 border customFooter bg-dark text-white">
           <p>
             We’d love to hear from you! Whether you have a question about our
             products, need assistance, or just want to share your feedback, feel
