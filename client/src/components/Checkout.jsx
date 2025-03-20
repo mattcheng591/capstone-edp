@@ -12,8 +12,8 @@ const Checkout = ({ cart, removeFromCart }) => {
       {/* Cart Items Section */}
       <div className="page-content">
         {cart.map((shoe, index) => (
-          <div className="col-mb-4" key={index}>
-            <div className="row g-0">
+          <div className="col-mb-4 checkoutCards checkoutText" key={index}>
+            <div className="row g-0 custom-row">
               <div className="col-md-4">
                 <img
                   src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg" // Assuming 'image' contains the URL of the shoe image
@@ -28,13 +28,13 @@ const Checkout = ({ cart, removeFromCart }) => {
                   </h5>
                   <p className="card-text">Price: ${shoe.price}</p>
                   <p className="card-text">Quantity: {shoe.quantity}</p>
-                  <button
-                    className="btn btn-danger"
-                    onClick={() => removeFromCart(shoe.shoeId)}
-                  >
-                    Remove from Cart
-                  </button>
                 </div>
+                <button
+                  className="btn btn-danger"
+                  onClick={() => removeFromCart(shoe.shoeId)}
+                >
+                  Remove from Cart
+                </button>
               </div>
             </div>
           </div>

@@ -73,7 +73,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
                   Price:{" "}
                   <span className="ag-courses-item_date">${shoe.price}</span>
                 </div>
-                <div className="ag-courses-item_date-box">
+                <div className="ag-courses-item_date-box clickCart">
                   Click to add to cart
                 </div>
               </div>
@@ -123,7 +123,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
                 Price:{" "}
                 <span className="ag-courses-item_date">${shoe.price}</span>
               </div>
-              <div className="ag-courses-item_date-box">
+              <div className="ag-courses-item_date-box clickCart">
                 Click to add to cart
               </div>
             </div>
