@@ -3,18 +3,23 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css";
 import Search from "./Search";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
   const navigate = useNavigate();
   const [filteredShoes, setFilteredShoes] = useState(shoes); // State for filtered shoes
   const [shoeCards, setShoes] = useState([]); // State for shoes data
 
+  // Reset filteredShoes whenever the shoes prop changes
+  useEffect(() => {
+    setFilteredShoes(shoes);
+  }, [shoes]);
+
   return (
     <div className="page-container">
       <Search setShoes={setFilteredShoes}></Search>
       <h1 className="page-title">Featured</h1>
-      
+
       {/* Shoes Section */}
       <div className="row mt-4page">
         {shoes.map((shoe) => (
