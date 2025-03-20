@@ -1,0 +1,58 @@
+
+
+/* HomePage.css */
+.shoe-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.shoe-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.shoe-card h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.shoe-card p {
+  margin: 4px 0;
+}
+
+.shoe-card button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.shoe-card button:hover {
+  background-color: #0056b3;
+}
+
+/* index.css */
+
+/* Existing styles for cart cards */
+.cart-card button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ff4d4d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-card button:hover {
+  background-color: #cc0000;
+}

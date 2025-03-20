@@ -1,0 +1,22 @@
+[
+  {
+    "orderId": "123452",
+    "products": [
+      {
+        "shoeId": 2,
+        "quantity": 1
+      }
+    ],
+    "total": 100,
+    "shippingInfo": {
+      "address": "123 Main St",
+      "city": "New York",
+      "postalCode": "10001"
+    },
+    "paymentInfo": {
+      "cardNumber": "1234567812345678",
+      "expiryDate": "12/25"
+    },
+    "status": "Pending"
+  }
+]
