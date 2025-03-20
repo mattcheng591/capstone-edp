@@ -30,9 +30,9 @@ function Recommended({ setCart }) {
                 `http://localhost:5050/api/products/${shoeId}`
               );
               const productDetail = await response.json();
-              console.log("product detail: ", productDetail);
 
               // Return the product detail for further processing
+              console.log("product detail:", productDetail);
               return productDetail;
             } catch (error) {
               console.error(
@@ -68,6 +68,7 @@ function Recommended({ setCart }) {
           );
 
           const recommendedData = await recommendResponse.json();
+          console.log(recommendedData);
           console.log("Recommended shoes: ", recommendedData);
           setRecommendedProducts(recommendedData); // Update state with recommended shoes
         } catch (err) {
@@ -80,51 +81,9 @@ function Recommended({ setCart }) {
 
     fetchOrderAndProducts();
   }, [orderId]);
-  // const recommendedShoes = [
-  //   {
-  //     shoeId: 1,
-  //     shoe_brand: "Nike",
-  //     shoe_type: "Running",
-  //     shoe_color: "Black",
-  //     shoe_size: 10,
-  //     price: 120,
-  //   },
-  //   {
-  //     shoeId: 2,
-  //     shoe_brand: "Adidas",
-  //     shoe_type: "Sneakers",
-  //     shoe_color: "White",
-  //     shoe_size: 9,
-  //     price: 100,
-  //   },
-  //   {
-  //     shoeId: 3,
-  //     shoe_brand: "Puma",
-  //     shoe_type: "Casual",
-  //     shoe_color: "Blue",
-  //     shoe_size: 8,
-  //     price: 90,
-  //   },
-  //   {
-  //     shoeId: 4,
-  //     shoe_brand: "Reebok",
-  //     shoe_type: "Training",
-  //     shoe_color: "Red",
-  //     shoe_size: 11,
-  //     price: 110,
-  //   },
-  //   {
-  //     shoeId: 5,
-  //     shoe_brand: "Under Armour",
-  //     shoe_type: "Basketball",
-  //     shoe_color: "Green",
-  //     shoe_size: 12,
-  //     price: 130,
-  //   },
-  // ];
 
   // Simulate an order number
-  const orderNumber = "ORD123456";
+  const orderNumber = "ORD12345";
   if (recommendedProducts.length === 0) {
     return <div>Loading...</div>;
   }
