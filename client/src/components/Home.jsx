@@ -7,17 +7,42 @@ import { useState } from "react";
 
 const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
   const navigate = useNavigate();
+  const [filteredShoes, setFilteredShoes] = useState(shoes); // State for filtered shoes
   const [shoeCards, setShoes] = useState([]); // State for shoes data
 
   return (
     <div className="page-container">
-      <Search setShoes={setShoes}></Search>
-      <h1 className="page-title">
-        Featured
-      </h1>
+      <Search setShoes={setFilteredShoes}></Search>
+      <h1 className="page-title">Featured</h1>
+      
       {/* Shoes Section */}
       <div className="row mt-4page">
         {shoes.map((shoe) => (
+          <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">
+                  {shoe.shoe_brand} - {shoe.shoe_type}
+                </h5>
+                <p className="card-text">Color: {shoe.shoe_color}</p>
+                <p className="card-text">Size: {shoe.shoe_size}</p>
+                <p className="card-text">Price: ${shoe.price}</p>
+                <button
+                  className="btn btn-primary"
+                  onClick={() => addToCart(shoe)}
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Search Section */}
+      <h1 className="page-title">Shoe Catalog</h1>
+      <div className="row mt-4">
+        {filteredShoes.map((shoe) => (
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
             <div className="card h-100">
               <div className="card-body">

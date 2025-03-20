@@ -34,7 +34,7 @@ const Search = (props) => {
       <input
         className="form-control me-2"
         type="search"
-        placeholder="Search"
+        placeholder="Search for Shoe Brand"
         aria-label="Search"
         value={searchTerm}
         onChange={handleChange}
