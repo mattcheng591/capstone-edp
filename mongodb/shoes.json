@@ -42,5 +42,170 @@
     "price": 180,
     "popularity": 3,
     "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:04:29",
+    "shoeId": 5,
+    "shoe_type": "sneakers",
+    "shoe_size": 11,
+    "shoe_color": "red",
+    "shoe_brand": "new balance",
+    "price": 60,
+    "popularity": 2,
+    "durability": 1
+  },
+  {
+    "timestamp": "2025-03-18T10:04:28",
+    "shoeId": 6,
+    "shoe_type": "sneakers",
+    "shoe_size": 10,
+    "shoe_color": "red",
+    "shoe_brand": "adidas",
+    "price": 90,
+    "popularity": 4,
+    "durability": 2
+  },
+  {
+    "timestamp": "2025-03-18T10:04:27",
+    "shoeId": 7,
+    "shoe_type": "boots",
+    "shoe_size": 11,
+    "shoe_color": "tan",
+    "shoe_brand": "timberland",
+    "price": 200,
+    "popularity": 3,
+    "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:04:26",
+    "shoeId": 8,
+    "shoe_type": "sneakers",
+    "shoe_size": 7,
+    "shoe_color": "black",
+    "shoe_brand": "new balance",
+    "price": 60,
+    "popularity": 4,
+    "durability": 3
+  },
+  {
+    "timestamp": "2025-03-18T10:04:25",
+    "shoeId": 9,
+    "shoe_type": "boots",
+    "shoe_size": 11,
+    "shoe_color": "brown",
+    "shoe_brand": "caterpillar",
+    "price": 140,
+    "popularity": 3,
+    "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:04:24",
+    "shoeId": 10,
+    "shoe_type": "sneakers",
+    "shoe_size": 8,
+    "shoe_color": "green",
+    "shoe_brand": "nike",
+    "price": 50,
+    "popularity": 4,
+    "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:04:23",
+    "shoeId": 11,
+    "shoe_type": "boots",
+    "shoe_size": 9,
+    "shoe_color": "black",
+    "shoe_brand": "timberland",
+    "price": 100,
+    "popularity": 3,
+    "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:04:22",
+    "shoeId": 12,
+    "shoe_type": "sneakers",
+    "shoe_size": 6,
+    "shoe_color": "white",
+    "shoe_brand": "new balance",
+    "price": 70,
+    "popularity": 1,
+    "durability": 2
+  },
+  {
+    "timestamp": "2025-03-18T10:04:21",
+    "shoeId": 13,
+    "shoe_type": "boots",
+    "shoe_size": 12,
+    "shoe_color": "tan",
+    "shoe_brand": "dr martens",
+    "price": 140,
+    "popularity": 1,
+    "durability": 1
+  },
+  {
+    "timestamp": "2025-03-18T10:04:20",
+    "shoeId": 14,
+    "shoe_type": "boots",
+    "shoe_size": 11,
+    "shoe_color": "brown",
+    "shoe_brand": "caterpillar",
+    "price": 120,
+    "popularity": 4,
+    "durability": 1
+  },
+  {
+    "timestamp": "2025-03-18T10:04:19",
+    "shoeId": 15,
+    "shoe_type": "boots",
+    "shoe_size": 11,
+    "shoe_color": "black",
+    "shoe_brand": "timberland",
+    "price": 140,
+    "popularity": 1,
+    "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:04:18",
+    "shoeId": 16,
+    "shoe_type": "sneakers",
+    "shoe_size": 10,
+    "shoe_color": "red",
+    "shoe_brand": "nike",
+    "price": 80,
+    "popularity": 3,
+    "durability": 3
+  },
+  {
+    "timestamp": "2025-03-18T10:04:17",
+    "shoeId": 17,
+    "shoe_type": "sneakers",
+    "shoe_size": 11,
+    "shoe_color": "red",
+    "shoe_brand": "reebok",
+    "price": 50,
+    "popularity": 1,
+    "durability": 1
+  },
+  {
+    "timestamp": "2025-03-18T10:04:16",
+    "shoeId": 18,
+    "shoe_type": "sneakers",
+    "shoe_size": 12,
+    "shoe_color": "blue",
+    "shoe_brand": "nike",
+    "price": 60,
+    "popularity": 1,
+    "durability": 1
+  },
+  {
+    "timestamp": "2025-03-18T10:04:15",
+    "shoeId": 19,
+    "shoe_type": "sneakers",
+    "shoe_size": 6,
+    "shoe_color": "white",
+    "shoe_brand": "new balance",
+    "price": 70,
+    "popularity": 4,
+    "durability": 5
   }
 ]
