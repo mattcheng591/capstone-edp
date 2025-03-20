@@ -137,17 +137,43 @@ function Recommended() {
           Your order number is: <strong>{orderNumber}</strong>
         </p>
         <h2 className="text-center mb-4">Recommended for You</h2>
-        <div className="row">
+        <div className="row mt-4">
           {recommendedProducts.map((shoe) => (
-            <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
-              <div className="card h-100">
-                <div className="card-body">
-                  <h5 className="card-title">
-                    {shoe.shoe_brand} - {shoe.shoe_type}
-                  </h5>
-                  <p className="card-text">Color: {shoe.shoe_color}</p>
-                  <p className="card-text">Size: {shoe.shoe_size}</p>
-                  <p className="card-text">Price: ${shoe.price}</p>
+            <div
+              className="ag-courses_item col-lg-3 col-md-4 col-sm-6 mb-4"
+              key={shoe.shoeId}
+              style={{ cursor: "pointer" }}
+            >
+              <div className="ag-courses-item_link">
+                <div className="ag-courses-item_bg"></div>
+                <div className="ag-courses-item_title">
+                  {shoe.shoe_brand} - {shoe.shoe_type}
+                </div>
+                <div className="ag-courses-item_title">
+                  <img
+                    src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
+                    alt={`${shoe.shoe_brand} - ${shoe.shoe_type}`}
+                    style={{
+                      width: "100%",
+                      height: "120px",
+                      objectFit: "cover",
+                      borderRadius: "8px",
+                    }}
+                  />
+                </div>
+                <div className="ag-courses-item_date-box">
+                  Color:{" "}
+                  <span className="ag-courses-item_date">
+                    {shoe.shoe_color}
+                  </span>
+                </div>
+                <div className="ag-courses-item_date-box">
+                  Size:{" "}
+                  <span className="ag-courses-item_date">{shoe.shoe_size}</span>
+                </div>
+                <div className="ag-courses-item_date-box">
+                  Price:{" "}
+                  <span className="ag-courses-item_date">${shoe.price}</span>
                 </div>
               </div>
             </div>
