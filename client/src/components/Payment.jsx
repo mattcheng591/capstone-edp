@@ -205,10 +205,20 @@ const Payment = ({ cart, totalPrice }) => {
               required
             />
           </div>
-          <div className="col-12 text-center">
-            <button type="submit" className="btn btn-success">
-              Submit Payment
-            </button>
+
+          <div className="text-center mt-4">
+            <div className="d-flex justify-content-center gap-2">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                onClick={() => navigate("/checkout")}
+              >
+                Back to Checkout
+              </button>
+              <button type="submit" className="btn btn-success">
+                Submit Payment
+              </button>
+            </div>
           </div>
         </form>
       </div>
