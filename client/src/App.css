@@ -182,7 +182,7 @@ ul li .navbar-brand:hover:before {
 }
 
 body {
-  background-color: #000;
+  background-color: #080808;
 }
 .ag-courses_box {
   display: -webkit-box;
@@ -216,7 +216,7 @@ body {
 .ag-courses-item_link {
   display: block;
   padding: 30px 20px;
-  background-color: #121212;
+  background-color: #202020;
 
   overflow: hidden;
 
@@ -507,4 +507,12 @@ body {
 .clickCart {
   font-weight: 600;
   color: #e44002;
+}
+
+.customHeader {
+  border-radius: 2rem;
+}
+
+.customFooter {
+  border-radius: 2rem;
 }
