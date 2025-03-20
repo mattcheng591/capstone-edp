@@ -8,43 +8,38 @@ import { useState, useEffect } from "react";
 
 const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
   const navigate = useNavigate();
-  const [filteredShoes, setFilteredShoes] = useState(shoes); // State for filtered shoes
-  const [shoeCards, setShoes] = useState([]); // State for shoes data
+  const [searchedShoes, setSearchedShoes] = useState(shoes); // State for searched shoes
+  const [filteredShoes, setFilteredShoes] = useState([]); // Filtered shoe data
 
-  // Reset filteredShoes whenever the shoes prop changes
+  // Reset searchedShoes whenever the shoes prop changes
   useEffect(() => {
-    setFilteredShoes(shoes);
+    setSearchedShoes(shoes);
   }, [shoes]);
 
-  const handleFilter = (filterTerm, filterType) => {
-    let filtered = shoes;
+  const handleSearch = (searchTerm) => {
+    let searched = shoes;
 
-    // Filter by brand if filterTerm is provided
-    if (filterTerm) {
-      filtered = filtered.filter((shoe) =>
-        shoe.shoe_brand.toLowerCase().includes(filterTerm.toLowerCase())
+    // search by brand if searchTerm is provided
+    if (searchTerm) {
+      searched = searched.filter((shoe) =>
+        shoe.shoe_brand.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
 
-    // Filter by shoe type if filterType is selected
-    if (filterType.boot || filterType.sneaker) {
-      filtered = filtered.filter((shoe) => {
-        if (filterType.boot && shoe.shoe_type.toLowerCase() === "boot") {
-          return true;
-        }
-        if (filterType.sneaker && shoe.shoe_type.toLowerCase() === "sneaker") {
-          return true;
-        }
-        return false;
-      });
-    }
-
-    setFilteredShoes(filtered);
+    setSearchedShoes(searched);
+  };
+  const handleFilter = (filterCriteria) => {
+    const filtered = shoes.filter((shoe) => {
+      // Apply your filtering logic here
+      console.log("criteria: ", filterCriteria);
+      return shoe.shoe_type === filterCriteria;
+    });
+    setSearchedShoes(filtered);
   };
 
   return (
     <div className="page-container">
-      <Search setShoes={setFilteredShoes}></Search>
+      <Search setShoes={setSearchedShoes}></Search>
       <h1 className="page-title">Featured</h1>
 
       {/* Shoes Section */}
@@ -73,9 +68,9 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
 
       {/* Search Section */}
       <h1 className="page-title">Shoe Catalog</h1>
-      <Filter onFilter={handleFilter} />
+      <Filter onFilter={handleFilter} setSearchedShoes={setSearchedShoes} />
       <div className="row mt-4">
-        {filteredShoes.map((shoe) => (
+        {searchedShoes.map((shoe) => (
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
             <div className="card h-100">
               <div className="card-body">
