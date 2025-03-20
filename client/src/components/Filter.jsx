@@ -23,7 +23,7 @@ const Filter = (props) => {
     const finalFilter = activeFilters.length > 0 ? activeFilters[0] : ""; // Set to "" if no filters are active
 
     // Example: Send the active filters to the server
-    console.log(finalFilter);
+
     fetch("http://localhost:5050/filter", {
       method: "POST",
       headers: {
