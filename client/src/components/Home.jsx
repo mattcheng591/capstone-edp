@@ -127,6 +127,7 @@ return (
     </Slider>
 
     {/* Search Section */}
+    <hr></hr>
     <h1 className="page-title">Shoe Catalog</h1>
     <Filter onFilter={handleFilter} setShoes={setSearchedShoes} />
     <div className="row mt-4">
@@ -182,7 +183,7 @@ return (
         </div>
       ))}
     </div>
-
+      <hr></hr>
     {/* Cart Section */}
     <div className="mt-5">
       <h2>Your Cart</h2>
