@@ -3,6 +3,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../index.css";
 import Search from "./Search";
+import Filter from "./Filter";
 import { useState, useEffect } from "react";
 
 const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
@@ -14,6 +15,32 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
   useEffect(() => {
     setFilteredShoes(shoes);
   }, [shoes]);
+
+  const handleFilter = (filterTerm, filterType) => {
+    let filtered = shoes;
+
+    // Filter by brand if filterTerm is provided
+    if (filterTerm) {
+      filtered = filtered.filter((shoe) =>
+        shoe.shoe_brand.toLowerCase().includes(filterTerm.toLowerCase())
+      );
+    }
+
+    // Filter by shoe type if filterType is selected
+    if (filterType.boot || filterType.sneaker) {
+      filtered = filtered.filter((shoe) => {
+        if (filterType.boot && shoe.shoe_type.toLowerCase() === "boot") {
+          return true;
+        }
+        if (filterType.sneaker && shoe.shoe_type.toLowerCase() === "sneaker") {
+          return true;
+        }
+        return false;
+      });
+    }
+
+    setFilteredShoes(filtered);
+  };
 
   return (
     <div className="page-container">
@@ -46,6 +73,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
 
       {/* Search Section */}
       <h1 className="page-title">Shoe Catalog</h1>
+      <Filter onFilter={handleFilter} />
       <div className="row mt-4">
         {filteredShoes.map((shoe) => (
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
