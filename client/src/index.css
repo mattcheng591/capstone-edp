@@ -1,6 +1,5 @@
-
-
 /* HomePage.css */
+
 .shoe-cards {
   display: flex;
   flex-wrap: wrap;
@@ -55,4 +54,13 @@
 
 .cart-card button:hover {
   background-color: #cc0000;
+}
+
+.card-body {
+  text-align: left; /* Align text to the left */
+  line-height: 1.6; /* Adjust line spacing for readability */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Evenly distribute space */
+  height: 100%; /* Ensure the card body takes full height */
 }

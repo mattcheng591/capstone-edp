@@ -207,5 +207,16 @@
     "price": 70,
     "popularity": 4,
     "durability": 5
+  },
+  {
+    "timestamp": "2025-03-18T10:03:55",
+    "shoeId": 39,
+    "shoe_type": "boots",
+    "shoe_size": 13,
+    "shoe_color": "black",
+    "shoe_brand": "caterpillar",
+    "price": 120,
+    "popularity": 4,
+    "durability": 4
   }
 ]

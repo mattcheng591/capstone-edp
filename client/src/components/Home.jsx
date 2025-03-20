@@ -29,9 +29,9 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
       <Search setShoes={setSearchedShoes}></Search>
       <h1 className="page-title">Featured</h1>
 
-      {/* Shoes Section */}
+      {/* Featured Section */}
       <div className="row mt-4page">
-        {shoes.map((shoe) => (
+        {shoes.slice(0, 4).map((shoe) => (
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
             <div className="card h-100">
               <div className="card-body">
