@@ -155,7 +155,7 @@ function Recommended() {
                     alt={`${shoe.shoe_brand} - ${shoe.shoe_type}`}
                     style={{
                       width: "100%",
-                      height: "120px",
+                      height: "150px",
                       objectFit: "cover",
                       borderRadius: "8px",
                     }}

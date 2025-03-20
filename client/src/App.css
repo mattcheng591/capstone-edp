@@ -471,9 +471,11 @@ body {
 .list-group .list-group-item {
   background-color: #121212;
   color: white;
-  border-color: #4c49ea;
+  border: 1px solid #4c49ea; /* Ensure border is explicitly defined */
   border-radius: 2rem;
-  margin: 10px;
+  margin: 10px; /* Adjust margin if necessary */
+  position: relative; /* Ensure proper stacking context */
+  z-index: 1; /* Prevent overlap issues */
 }
 
 .checkoutText {
