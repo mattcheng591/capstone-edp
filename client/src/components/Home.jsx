@@ -11,7 +11,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
 
   return (
     <div className="page-container">
-      {/* <Search setShoes={setShoes}></Search> */}
+      <Search setShoes={setShoes}></Search>
       <h1 className="page-title">
         Featured
       </h1>
