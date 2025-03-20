@@ -145,7 +145,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
               className="list-group-item d-flex justify-content-between align-items-center"
               key={index}
             >
-              <span>
+              <span className="cartText">
                 {shoe.shoe_brand} - {shoe.shoe_type}: ${shoe.price} Quantity:{" "}
                 {shoe.quantity}
               </span>
