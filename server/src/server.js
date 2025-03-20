@@ -54,3 +54,29 @@ app.post("/search", async (req, res) => {
       .send("Hmm, something doesn't smell right... Error searching for socks");
   }
 });
+
+app.post("/filter", async (req, res) => {
+  try {
+    const { filterTerm } = req.body;
+    const client = await MongoClient.connect(url);
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+    const filterTermLower = filterTerm.toLowerCase();
+
+    // Find socks with an exact color match (case-insensitive)
+    const shoes = await collection
+      .find({
+        $expr: {
+          $eq: [{ $toLower: "$shoe_type" }, filterTermLower],
+        },
+      })
+      .toArray();
+    console.log(shoes);
+    res.json(shoes);
+  } catch (err) {
+    console.error("Error:", err);
+    res
+      .status(500)
+      .send("Hmm, something doesn't smell right... Error searching for socks");
+  }
+});
