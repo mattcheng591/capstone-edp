@@ -33,10 +33,47 @@
   }
 }
 
+.page-container {
+  max-width: 1200px; /* Set a consistent maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 2rem; /* Add consistent padding */
+}
+
+.page-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.page-content {
+  margin-top: 1rem;
+}
+
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 0;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
 }

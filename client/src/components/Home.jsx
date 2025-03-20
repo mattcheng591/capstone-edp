@@ -10,14 +10,13 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
   const [shoeCards, setShoes] = useState([]); // State for shoes data
 
   return (
-    <div className="container mt-4">
-      <h1 className="text-center mb-4">
-        Travis Scott's Astronomical Online Store
+    <div className="page-container">
+      {/* <Search setShoes={setShoes}></Search> */}
+      <h1 className="page-title">
+        Featured
       </h1>
-      <Search setShoes={setShoes}></Search>
-
       {/* Shoes Section */}
-      <div className="row mt-4">
+      <div className="row mt-4page">
         {shoes.map((shoe) => (
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>
             <div className="card h-100">

@@ -6,14 +6,13 @@ const Checkout = ({ cart, removeFromCart }) => {
   const total = cart.reduce((sum, shoe) => sum + shoe.price * shoe.quantity, 0);
 
   return (
-    <div className="container mt-4">
-      <h1 className="text-center mb-4">Checkout Page</h1>
+    <div className="page-container">
+      <h1 className="page-title">Checkout Page</h1>
 
       {/* Cart Items Section */}
-      <div className="row">
-        {cart.map((shoe, index) => (
-          <div className="col-12 mb-4" key={index}>
-            <div className="card h-100">
+        <div className="page-content">
+          {cart.map((shoe, index) => (
+            <div className="col-mb-4" key={index}>
               <div className="row g-0">
                 <div className="col-md-4">
                   <img
@@ -39,9 +38,8 @@ const Checkout = ({ cart, removeFromCart }) => {
                 </div>
               </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
 
       {/* Total Price Section */}
       <div className="text-center mt-4">
