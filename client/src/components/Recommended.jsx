@@ -151,11 +151,15 @@ function Recommended({ setCart }) {
                 </div>
                 <div className="ag-courses-item_title">
                   <img
-                    src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
+                    src={
+                      shoe.shoe_type?.toLowerCase() === "sneakers"
+                        ? "https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
+                        : "https://pngimg.com/uploads/boots/boots_PNG7781.png"
+                    }
                     alt={`${shoe.shoe_brand} - ${shoe.shoe_type}`}
                     style={{
                       width: "100%",
-                      height: "150px",
+                      height: "250px",
                       objectFit: "cover",
                       borderRadius: "8px",
                     }}

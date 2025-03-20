@@ -47,11 +47,15 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
                 </div>
                 <div className="ag-courses-item_title">
                   <img
-                    src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
-                    alt="Shoes"
+                    src={
+                      shoe.shoe_type.toLowerCase() === "sneakers"
+                        ? "https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
+                        : "https://pngimg.com/uploads/boots/boots_PNG7781.png"
+                    }
+                    alt={`${shoe.shoe_brand} - ${shoe.shoe_type}`}
                     style={{
                       width: "100%",
-                      height: "120px", // Adjust height as needed
+                      height: "150px", // Adjust height as needed
                       objectFit: "cover", // Ensures the image fills the space while maintaining aspect ratio
                       borderRadius: "8px", // Optional: Add rounded corners for better aesthetics
                     }}
@@ -103,11 +107,15 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
 
               <div className="ag-courses-item_title">
                 <img
-                  src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
-                  alt="Shoes"
+                  src={
+                    shoe.shoe_type.toLowerCase() === "sneakers"
+                      ? "https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
+                      : "https://pngimg.com/uploads/boots/boots_PNG7781.png"
+                  }
+                  alt={`${shoe.shoe_brand} - ${shoe.shoe_type}`}
                   style={{
                     width: "100%",
-                    height: "170px", // Adjust height as needed
+                    height: "250px", // Adjust height as needed
                     objectFit: "cover", // Ensures the image fills the space while maintaining aspect ratio
                     borderRadius: "8px", // Optional: Add rounded corners for better aesthetics
                   }}

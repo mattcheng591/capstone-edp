@@ -16,7 +16,11 @@ const Checkout = ({ cart, removeFromCart }) => {
             <div className="row g-0 custom-row">
               <div className="col-md-4">
                 <img
-                  src="https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg" // Assuming 'image' contains the URL of the shoe image
+                  src={
+                    shoe.shoe_type?.toLowerCase() === "sneakers"
+                      ? "https://static.nike.com/a/images/w_1280,q_auto,f_auto/354d14df-3286-44e6-afbf-debaf283d320/air-jordan-1-low-x-travis-scott-sail-and-ridgerock-dm7866-162-release-date.jpg"
+                      : "https://pngimg.com/uploads/boots/boots_PNG7781.png"
+                  }
                   alt={`${shoe.shoe_brand} - ${shoe.shoe_type}`}
                   className="img-fluid mb-3" // Bootstrap class for responsive images
                 />
