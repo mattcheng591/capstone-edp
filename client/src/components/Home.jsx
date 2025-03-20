@@ -16,22 +16,9 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
     setSearchedShoes(shoes);
   }, [shoes]);
 
-  const handleSearch = (searchTerm) => {
-    let searched = shoes;
-
-    // search by brand if searchTerm is provided
-    if (searchTerm) {
-      searched = searched.filter((shoe) =>
-        shoe.shoe_brand.toLowerCase().includes(searchTerm.toLowerCase())
-      );
-    }
-
-    setSearchedShoes(searched);
-  };
   const handleFilter = (filterCriteria) => {
     const filtered = shoes.filter((shoe) => {
       // Apply your filtering logic here
-      console.log("criteria: ", filterCriteria);
       return shoe.shoe_type === filterCriteria;
     });
     setSearchedShoes(filtered);
@@ -68,7 +55,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
 
       {/* Search Section */}
       <h1 className="page-title">Shoe Catalog</h1>
-      <Filter onFilter={handleFilter} setSearchedShoes={setSearchedShoes} />
+      <Filter onFilter={handleFilter} setShoes={setSearchedShoes} />
       <div className="row mt-4">
         {searchedShoes.map((shoe) => (
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4" key={shoe.shoeId}>

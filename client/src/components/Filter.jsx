@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 
-const Filter = () => {
-  const [filterType, setFilterType] = useState({
-    boots: false,
-    sneakers: false,
-  });
+const Filter = (props) => {
+  const [filterType, setFilterType] = useState("");
 
   const handleCheckboxChange = (event) => {
     const { name, checked } = event.target;
@@ -23,7 +20,8 @@ const Filter = () => {
   const applyFilters = (filters) => {
     // Extract only the keys with true values
     const activeFilters = Object.keys(filters).filter((key) => filters[key]);
-    const finalFilter = activeFilters[0];
+    const finalFilter = activeFilters.length > 0 ? activeFilters[0] : ""; // Set to "" if no filters are active
+
     // Example: Send the active filters to the server
     console.log(finalFilter);
     fetch("http://localhost:5050/filter", {
@@ -35,6 +33,7 @@ const Filter = () => {
     })
       .then((response) => response.json())
       .then((data) => {
+        props.setShoes(data);
         console.log("Filtered data:", data);
         // Update the UI with the filtered data
       })

@@ -36,15 +36,21 @@ app.post("/search", async (req, res) => {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
     const searchTermLower = searchTerm.toLowerCase();
+    let shoes;
 
-    // Find socks with an exact color match (case-insensitive)
-    const shoes = await collection
-      .find({
-        $expr: {
-          $eq: [{ $toLower: "$shoe_brand" }, searchTermLower],
-        },
-      })
-      .toArray();
+    if (searchTermLower === "") {
+      // If searchTermLower is empty, retrieve all records
+      shoes = await collection.find({}).toArray();
+    } else {
+      // Otherwise, search for an exact match on shoe_brand (case-insensitive)
+      shoes = await collection
+        .find({
+          $expr: {
+            $eq: [{ $toLower: "$shoe_brand" }, searchTermLower],
+          },
+        })
+        .toArray();
+    }
     console.log(shoes);
     res.json(shoes);
   } catch (err) {
@@ -62,15 +68,21 @@ app.post("/filter", async (req, res) => {
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
     const filterTermLower = filterTerm.toLowerCase();
+    let shoes;
 
-    // Find socks with an exact color match (case-insensitive)
-    const shoes = await collection
-      .find({
-        $expr: {
-          $eq: [{ $toLower: "$shoe_type" }, filterTermLower],
-        },
-      })
-      .toArray();
+    if (filterTermLower === "") {
+      // If filterTermLower is empty, retrieve all records
+      shoes = await collection.find({}).toArray();
+    } else {
+      // Otherwise, filter by shoe_type
+      shoes = await collection
+        .find({
+          $expr: {
+            $eq: [{ $toLower: "$shoe_type" }, filterTermLower],
+          },
+        })
+        .toArray();
+    }
     console.log(shoes);
     res.json(shoes);
   } catch (err) {
