@@ -98,7 +98,10 @@ const App = () => {
               />
             }
           />
-          <Route path="/recommended" element={<Recommended />} />
+          <Route
+            path="/recommended"
+            element={<Recommended setCart={setCart} />}
+          />
           <Route
             path="/payment"
             element={<Payment cart={cart} totalPrice={totalPrice} />}

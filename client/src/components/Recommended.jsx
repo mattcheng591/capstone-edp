@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import "../index.css"; // Reuse the CSS for card styling
 import { orderData } from "./Payment";
 
-function Recommended() {
+function Recommended({ setCart }) {
   const navigate = useNavigate();
   const orderId = orderData.orderId;
   // const [productDetail, setProductDetail] = useState([]);
@@ -63,7 +63,7 @@ function Recommended() {
                 "Content-Type": "application/json",
               },
               body: JSON.stringify(sanitizedProductDetails), // Send sanitized data
-            //   mode: 'no-cors'
+              //   mode: 'no-cors'
             }
           );
 
@@ -180,7 +180,13 @@ function Recommended() {
           ))}
         </div>
         <div className="text-center mt-4">
-          <button className="btn btn-primary" onClick={() => navigate("/")}>
+          <button
+            className="btn btn-primary"
+            onClick={() => {
+              setCart([]); // Clear the cart state
+              navigate("/"); // Navigate back home
+            }}
+          >
             Go Home
           </button>
         </div>
