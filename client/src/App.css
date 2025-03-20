@@ -21,6 +21,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -28,6 +29,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+body {
+  background-color: #000; /* Dark background */
+  color: white; /* Default text color */
+}
+
+/* Optional: Style links for better visibility */
+a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
