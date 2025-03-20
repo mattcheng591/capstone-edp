@@ -27,6 +27,7 @@ const Home = ({ shoes, cart, addToCart, removeFromCart }) => {
   return (
     <div className="page-container">
       <Search setShoes={setSearchedShoes}></Search>
+      <hr></hr>
       <h1 className="page-title">Featured</h1>
 
       {/* Featured Section */}

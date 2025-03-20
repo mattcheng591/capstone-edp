@@ -17,7 +17,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="navbar-brand">
+          <Link to="/contactus" className="navbar-brand">
             Contact
           </Link>
         </li>

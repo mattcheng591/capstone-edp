@@ -10,7 +10,8 @@ import Payment from "./components/Payment";
 import LoginForm from "./components/LoginForm";
 import RequireAuth from "./components/RequireAuth";
 import { AuthProvider } from "./components/AuthContext";
-
+import About from "./components/About";
+import ContactUs from "./components/ContactUs";
 const App = () => {
   const [cart, setCart] = useState([]);
   const [shoes, setShoes] = useState([]); // State for shoes data
@@ -105,6 +106,8 @@ const App = () => {
           <Route path="/addshoe" element={<RequireAuth></RequireAuth>} />
           {/* <Route path="/Login" element={<LoginForm />} /> */}
           {/* Add the PaymentPage route */}
+          <Route path="/about" element={<About />} />
+          <Route path="/contactus" element={<ContactUs />} />
         </Routes>
       </AuthProvider>
       <Footer />
